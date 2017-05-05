@@ -8,6 +8,7 @@ class MessagePresentation(VoiceServiceElement):
     """
     _urls_name = 'service-development:message-presentation'
     final_element = models.BooleanField('This element will terminate the call',default = False)
+    diagnosis_element = models.BooleanField('This element will terminate symptom question',default = False)
     _redirect = models.ForeignKey(
             VoiceServiceElement,
             on_delete = models.SET_NULL,

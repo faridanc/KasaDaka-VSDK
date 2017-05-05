@@ -1,6 +1,7 @@
 from django.contrib import admin
 
 from .models import VoiceService, MessagePresentation, Choice, ChoiceOption, VoiceFragment, CallSession, CallSessionStep, KasaDakaUser, Language, VoiceLabel
+from .models import Region, RegionSelection, RegionSelectionOption, Animal, Disease, DiseaseFragment, AnimalSelection, AnimalSelectionOption, SymptomOfDisease, Symptom
 
 def format_validation_result(obj):
         """
@@ -86,7 +87,49 @@ class CallSessionAdmin(admin.ModelAdmin):
         return actions
 
 class MessagePresentationAdmin(VoiceServiceElementAdmin):
-    fieldsets = VoiceServiceElementAdmin.fieldsets + [('Message Presentation', {'fields': ['_redirect','final_element']})]
+    fieldsets = VoiceServiceElementAdmin.fieldsets + [('Message Presentation', {'fields': ['_redirect','final_element', 'diagnosis_element']})]
+
+
+class RegionAdmin(admin.ModelAdmin):
+   fieldsets = [('General',    {'fields' : [ 'name', 'description']})]
+  
+class AnimalInline(admin.TabularInline):
+    model = DiseaseFragment
+    extra = 2
+    fk_name = 'parent'
+
+class AnimalAdmin(admin.ModelAdmin):
+  inlines = [AnimalInline]
+
+class AnimalSelectionOptionsInline(admin.TabularInline):
+    model = AnimalSelectionOption
+    extra = 2
+    fk_name = 'parent'
+    view_on_site = False
+
+class AnimalSelectionAdmin(VoiceServiceElementAdmin):
+    fieldsets = VoiceServiceElementAdmin.fieldsets
+    inlines = [AnimalSelectionOptionsInline]
+
+class RegionSelectionOptionsInline(admin.TabularInline):
+    model = RegionSelectionOption
+    extra = 2
+    fk_name = 'parent'
+    view_on_site = False
+
+class RegionSelectionAdmin(VoiceServiceElementAdmin):
+    fieldsets = VoiceServiceElementAdmin.fieldsets + [('Redirect URL', {'fields': ['_redirect_url']})]
+    inlines = [RegionSelectionOptionsInline]
+
+class DiseaseInline(admin.TabularInline):
+    model = SymptomOfDisease
+    extra = 2
+    fk_name = 'disease'
+    view_on_site = False
+
+class DiseaseAdmin(admin.ModelAdmin):
+  inlines = [DiseaseInline]
+
 
 # Register your models here.
 
@@ -97,3 +140,9 @@ admin.site.register(CallSession, CallSessionAdmin)
 admin.site.register(KasaDakaUser)
 admin.site.register(Language)
 admin.site.register(VoiceLabel, VoiceLabelAdmin)
+admin.site.register(Animal, AnimalAdmin)
+admin.site.register(Disease, DiseaseAdmin)
+admin.site.register(Region, RegionAdmin)
+admin.site.register(AnimalSelection, AnimalSelectionAdmin)
+admin.site.register(RegionSelection, RegionSelectionAdmin)
+admin.site.register(Symptom)

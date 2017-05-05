@@ -36,6 +36,7 @@ def choice_generate_context(choice_element, session):
                 'choice_options_voice_labels':choice_options_resolve_voice_labels(choice_options, language),
                     'choice_options_redirect_urls': choice_options_resolve_redirect_urls(choice_options,session),
                     'language': language,
+                    'current_element_id': choice_element.id
                     }
     return context
 
@@ -43,6 +44,20 @@ def choice(request, element_id, session_id):
     choice_element = get_object_or_404(Choice, pk=element_id)
     session = get_object_or_404(CallSession, pk=session_id)
     session.record_step(choice_element)
+    
+
+    if request.method == "POST" and request.POST.get('animal_id', ''):
+            animal_id = request.POST['animal_id']
+            session.animal = animal_id
+            session.save()
+    elif request.method == "POST" and request.POST.get('answer_', ''):
+            element_symptom_id = request.POST['curr_element_id']
+            try:
+                symptom = get_list_or_404(SymptomOfDisease, element_of_symptom_id=element_symptom_id)
+                session.record_answer(request.POST['answer_'], element_symptom_id, symptom[0].symptom_id)
+            except:
+                None
+    
     context = choice_generate_context(choice_element, session)
     
     return render(request, 'choice.xml', context, content_type='text/xml')

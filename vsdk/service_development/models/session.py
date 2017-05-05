@@ -16,6 +16,10 @@ class CallSession(models.Model):
     caller_id = models.CharField(max_length = 100, blank = True, null = True)
     service = models.ForeignKey(VoiceService, on_delete = models.SET_NULL, null = True)
     _language = models.ForeignKey(Language,on_delete = models.SET_NULL, null = True)
+    region = models.CharField(max_length = 100, blank = True, null = True)
+    season = models.CharField(max_length = 100, blank = True, null = True)
+    animal = models.CharField(max_length = 100, blank = True, null = True)
+   
 
     def __str__(self):
         from django.template import defaultfilters
@@ -56,7 +60,13 @@ class CallSession(models.Model):
         self.user = user
         self.save()
         return self
-
+    
+    def record_answer(self, user_answer, elementid, symptomid):
+        answer = CallAnswerList(session = self, answer = user_answer, element_id = elementid, symptom_id = symptomid)
+        self.save()
+        answer.save()
+        return
+    
 class CallSessionStep(models.Model):
     time = models.DateTimeField(auto_now_add = True)
     session = models.ForeignKey(CallSession, on_delete = models.CASCADE, related_name = "steps")
@@ -88,3 +98,12 @@ def lookup_or_create_session(voice_service, session_id=None, caller_id = None):
                 caller_id = caller_id) 
         session.save()
     return session
+
+class CallAnswerList(models.Model):
+    session = models.ForeignKey(CallSession, on_delete = models.CASCADE, related_name = "answers")
+    answer = models.CharField(max_length = 50, blank = True, null = True)
+    element_id = models.CharField(max_length = 50, blank = True, null = True)
+    symptom_id = models.IntegerField(blank = True, null = True)
+
+    def __str__(self):
+        return self.answer
