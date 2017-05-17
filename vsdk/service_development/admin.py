@@ -2,6 +2,7 @@ from django.contrib import admin
 
 from .models import VoiceService, MessagePresentation, Choice, ChoiceOption, VoiceFragment, CallSession, CallSessionStep, KasaDakaUser, Language, VoiceLabel
 from .models import Region, RegionSelection, RegionSelectionOption, Animal, Disease, DiseaseFragment, AnimalSelection, AnimalSelectionOption, SymptomOfDisease, Symptom
+from .models import Veterinarian, VeterinarianSelection, VeterinarianSelectionOption
 
 def format_validation_result(obj):
         """
@@ -90,8 +91,8 @@ class MessagePresentationAdmin(VoiceServiceElementAdmin):
     fieldsets = VoiceServiceElementAdmin.fieldsets + [('Message Presentation', {'fields': ['_redirect','final_element', 'diagnosis_element']})]
 
 
-class RegionAdmin(admin.ModelAdmin):
-   fieldsets = [('General',    {'fields' : [ 'name', 'description']})]
+'''class RegionAdmin(admin.ModelAdmin):
+   fieldsets = [('General',    {'fields' : [ 'name', 'description']})]'''
   
 class AnimalInline(admin.TabularInline):
     model = DiseaseFragment
@@ -130,6 +131,15 @@ class DiseaseInline(admin.TabularInline):
 class DiseaseAdmin(admin.ModelAdmin):
   inlines = [DiseaseInline]
 
+class VeterinarianSelectionOptionsInline(admin.TabularInline):
+    model = VeterinarianSelectionOption
+    extra = 2
+    fk_name = 'parent'
+    view_on_site = False
+
+class VeterinarianSelectionAdmin(VoiceServiceElementAdmin):
+    fieldsets = VoiceServiceElementAdmin.fieldsets + [('Redirect URL', {'fields': ['_redirect_url']})]
+    inlines = [VeterinarianSelectionOptionsInline]
 
 # Register your models here.
 
@@ -142,7 +152,10 @@ admin.site.register(Language)
 admin.site.register(VoiceLabel, VoiceLabelAdmin)
 admin.site.register(Animal, AnimalAdmin)
 admin.site.register(Disease, DiseaseAdmin)
-admin.site.register(Region, RegionAdmin)
+#admin.site.register(Region, RegionAdmin)
+admin.site.register(Region)
 admin.site.register(AnimalSelection, AnimalSelectionAdmin)
 admin.site.register(RegionSelection, RegionSelectionAdmin)
 admin.site.register(Symptom)
+admin.site.register(Veterinarian)
+admin.site.register(VeterinarianSelection, VeterinarianSelectionAdmin)

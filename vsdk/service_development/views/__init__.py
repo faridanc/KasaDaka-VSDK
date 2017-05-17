@@ -6,3 +6,4 @@ from .voiceservice import *
 from .language import *
 from .region_selection import *
 from .animal_selection import *
+from .veterinarian_selection import *

@@ -8,4 +8,5 @@ from .vse_message import *
 from .animal import *
 from .region import *
 from .symptom import *
+from .veterinarian import *
 

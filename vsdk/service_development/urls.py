@@ -14,6 +14,7 @@ urlpatterns = [
     
     url(r'^region_select/(?P<element_id>[0-9]+)/(?P<session_id>[0-9]+)$', views.region_selection, name='region-selection'),
     url(r'^animal_select/(?P<element_id>[0-9]+)/(?P<session_id>[0-9]+)$', views.animal_selection, name='animal-selection'),
+    url(r'^veterinarian_select/(?P<element_id>[0-9]+)/(?P<session_id>[0-9]+)$', views.veterinarian_selection, name='veterinarian-selection'),
     
 ]
 
