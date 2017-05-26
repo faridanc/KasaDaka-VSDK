@@ -2,7 +2,7 @@ from django.shortcuts import render, get_object_or_404, get_list_or_404, redirec
 from django.urls import reverse
 
 
-from ..models import KasaDakaUser, CallSession
+from ..models import KasaDakaUser, CallSession, lookup_kasadaka_user_by_caller_id
 
 from ..models import Language
 
@@ -35,12 +35,18 @@ def user_registration(request):
         session = get_object_or_404(CallSession, pk = request.POST['session_id'])
         language = get_object_or_404(Language, pk = request.POST['language_id'])
  
-        #register the user and link the session to the user
-        user = KasaDakaUser(caller_id = caller_id,
-                language = language,
-                service = session.service)
-        user.save()
-        session.link_to_user(user)
+        found_user = lookup_kasadaka_user_by_caller_id(caller_id, session.service)
+        if found_user:
+                found_user.language = language
+                found_user.save()
+                session.link_to_user(found_user)
+        else:
+                #register the user and link the session to the user
+                user = KasaDakaUser(caller_id = caller_id,
+                        language = language,
+                        service = session.service)
+                user.save()
+                session.link_to_user(user)
             
         #redirect back to start of voice service
         return redirect('service-development:voice-service',

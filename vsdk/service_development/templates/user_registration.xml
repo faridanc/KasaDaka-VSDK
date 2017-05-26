@@ -3,7 +3,9 @@
 <form id="language_form">
 	<field name="language_field">
 		<prompt>
+      <audio src="/uploads/jingle.wav"/>
 			{% for language in languages %}
+      <audio src="{{ language.get_interface_voice_label_url_dict.select_language }}"/>
 			<audio src="{{ language.get_interface_voice_label_url_dict.pre_choice_option }}"/>
 			<audio src="{{ language.get_interface_voice_label_url_dict.voice_label }}"/>
 			<audio src="{{ language.get_interface_voice_label_url_dict.post_choice_option }}"/>

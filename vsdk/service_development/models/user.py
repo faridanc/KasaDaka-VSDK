@@ -7,6 +7,7 @@ from phonenumber_field.modelfields import PhoneNumberField
 
 from . import Language
 from . import VoiceService
+from .region import Region
 
 class KasaDakaUser(models.Model):
     """
@@ -20,6 +21,7 @@ class KasaDakaUser(models.Model):
     modification_date = models.DateTimeField(auto_now = True)
     language = models.ForeignKey(Language,on_delete = models.SET_NULL, null = True)
     service = models.ForeignKey(VoiceService, on_delete = models.CASCADE)
+    region = models.ForeignKey(Region,on_delete = models.SET_NULL, null = True)
 
     def __str__(self):
         if not (self.first_name or self.last_name):

@@ -24,6 +24,15 @@ def region_selection_generate_context(selection_element, session):
         """
     selection_options =  selection_element.selection_options.all()
     language = session.language
+    current_user = session.user
+    region_id = current_user.region_id
+    
+    if region_id:
+        region_in_option = get_object_or_404(selection_options, options_id=region_id)
+        region_voice_label = region_in_option.get_voice_fragment_url(language)
+    else:
+        region_voice_label = ''
+    validate_options = ['yes','no']
 
     month = datetime.datetime.now().month
     if month >=2 & month <=6:
@@ -40,7 +49,10 @@ def region_selection_generate_context(selection_element, session):
                 'selection_options': selection_options,
                 'selection_options_voice_labels': region_selection_options_resolve_voice_labels(selection_options, language),
                 'language': language,
-                'redirect_url': redirect_url
+                'redirect_url': redirect_url,
+                'region_id': region_id,
+                'region_voice_label': region_voice_label,
+                'validate_options' : validate_options
              }
     return context
 
@@ -49,6 +61,8 @@ def region_selection(request, element_id, session_id):
     session = get_object_or_404(CallSession, pk=session_id)
     session.record_step(selection_element)
     context = region_selection_generate_context(selection_element, session)
-      
+
     return render(request, 'region_selection.xml', context, content_type='text/xml')
+   
+
 

@@ -50,8 +50,9 @@ def veterinarian_selection(request, element_id, session_id):
 
     if request.method == "POST" and request.POST['region_id']:
         region_id = request.POST['region_id']
-        session.region = region_id
-        session.save()
+        current_user = session.user
+        current_user.region_id = region_id
+        current_user.save()
 
     context = veterinarian_selection_generate_context(selection_element, session, region_id)
       

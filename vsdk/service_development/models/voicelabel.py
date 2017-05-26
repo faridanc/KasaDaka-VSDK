@@ -46,6 +46,18 @@ class Language(models.Model):
             on_delete = models.PROTECT,
             related_name = 'language_post_choice_option',
             help_text = "The fragment that is to be played before a choice option (e.g. 'to select option X, [please press] 1')")
+    validate_region_message = models.ForeignKey('VoiceLabel',
+            on_delete = models.PROTECT,
+            related_name = 'language_validate_region',
+            help_text = "The fragment that is to be played when validating user regions")
+    yes = models.ForeignKey('VoiceLabel',
+            on_delete = models.PROTECT,
+            related_name = 'language_yes',
+            help_text = "The fragment for yes")
+    no = models.ForeignKey('VoiceLabel',
+            on_delete = models.PROTECT,
+            related_name = 'language_no',
+            help_text = "The fragment for no")
     one = models.ForeignKey('VoiceLabel',
             on_delete = models.PROTECT,
             related_name = 'language_one',
@@ -129,6 +141,9 @@ class Language(models.Model):
                 'select_language':self.select_language,
                 'pre_choice_option':self.pre_choice_option,
                 'post_choice_option':self.post_choice_option,
+                'validate_region_message':self.validate_region_message,
+                'yes':self.yes,
+                'no':self.no
                 }
         for k, v in interface_voice_labels.items():
             interface_voice_labels[k] = v.get_voice_fragment_url(self)
