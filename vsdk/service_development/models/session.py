@@ -16,7 +16,6 @@ class CallSession(models.Model):
     caller_id = models.CharField(max_length = 100, blank = True, null = True)
     service = models.ForeignKey(VoiceService, on_delete = models.SET_NULL, null = True)
     _language = models.ForeignKey(Language,on_delete = models.SET_NULL, null = True)
-    region = models.CharField(max_length = 100, blank = True, null = True)
     season = models.CharField(max_length = 100, blank = True, null = True)
     animal = models.CharField(max_length = 100, blank = True, null = True)
    
