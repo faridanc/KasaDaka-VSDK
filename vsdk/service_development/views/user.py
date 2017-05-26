@@ -2,7 +2,7 @@ from django.shortcuts import render, get_object_or_404, get_list_or_404, redirec
 from django.urls import reverse
 
 
-from ..models import KasaDakaUser, CallSession, lookup_kasadaka_user_by_caller_id
+from ..models import KasaDakaUser, CallSession, lookup_kasadaka_user_by_caller_id, VoiceLabel
 
 from ..models import Language
 
@@ -18,9 +18,12 @@ def user_registration_form(request, session, caller_id):
     languages = session.service.supported_languages.all()
     pass_on_variables = {'session_id':session.id,
             'caller_id':caller_id}
+    jingle = get_object_or_404(VoiceLabel, name='Jingle')
+    jingle_url = jingle.get_voice_fragment_url(languages[0])
     context = {'languages':languages,
             'pass_on_variables': pass_on_variables,
             'redirect_url': reverse('service-development:user-registration'),
+            'jingle_url': jingle_url
             }
     return render(request, 'user_registration.xml', context, content_type='text/xml')
 
