@@ -1,0 +1,6522 @@
+[
+{
+    "model": "service_development.voicelabel",
+    "pk": 1,
+    "fields": {
+        "name": "Dutch language",
+        "description": "Nederlandse taal"
+    }
+},
+{
+    "model": "service_development.voicelabel",
+    "pk": 2,
+    "fields": {
+        "name": "General error message",
+        "description": ""
+    }
+},
+{
+    "model": "service_development.voicelabel",
+    "pk": 4,
+    "fields": {
+        "name": "English language",
+        "description": ""
+    }
+},
+{
+    "model": "service_development.voicelabel",
+    "pk": 5,
+    "fields": {
+        "name": "Thank you for using this service",
+        "description": ""
+    }
+},
+{
+    "model": "service_development.voicelabel",
+    "pk": 7,
+    "fields": {
+        "name": "French language",
+        "description": ""
+    }
+},
+{
+    "model": "service_development.voicelabel",
+    "pk": 8,
+    "fields": {
+        "name": "Please select your language",
+        "description": ""
+    }
+},
+{
+    "model": "service_development.voicelabel",
+    "pk": 9,
+    "fields": {
+        "name": "Pre Choice Option",
+        "description": ""
+    }
+},
+{
+    "model": "service_development.voicelabel",
+    "pk": 10,
+    "fields": {
+        "name": "Post Choice Option",
+        "description": ""
+    }
+},
+{
+    "model": "service_development.voicelabel",
+    "pk": 11,
+    "fields": {
+        "name": "One",
+        "description": ""
+    }
+},
+{
+    "model": "service_development.voicelabel",
+    "pk": 12,
+    "fields": {
+        "name": "Two",
+        "description": ""
+    }
+},
+{
+    "model": "service_development.voicelabel",
+    "pk": 13,
+    "fields": {
+        "name": "Three",
+        "description": ""
+    }
+},
+{
+    "model": "service_development.voicelabel",
+    "pk": 14,
+    "fields": {
+        "name": "Four",
+        "description": ""
+    }
+},
+{
+    "model": "service_development.voicelabel",
+    "pk": 15,
+    "fields": {
+        "name": "Five",
+        "description": ""
+    }
+},
+{
+    "model": "service_development.voicelabel",
+    "pk": 16,
+    "fields": {
+        "name": "Six",
+        "description": ""
+    }
+},
+{
+    "model": "service_development.voicelabel",
+    "pk": 17,
+    "fields": {
+        "name": "Seven",
+        "description": ""
+    }
+},
+{
+    "model": "service_development.voicelabel",
+    "pk": 18,
+    "fields": {
+        "name": "Eight",
+        "description": ""
+    }
+},
+{
+    "model": "service_development.voicelabel",
+    "pk": 19,
+    "fields": {
+        "name": "Nine",
+        "description": ""
+    }
+},
+{
+    "model": "service_development.voicelabel",
+    "pk": 20,
+    "fields": {
+        "name": "Zero",
+        "description": ""
+    }
+},
+{
+    "model": "service_development.voicelabel",
+    "pk": 21,
+    "fields": {
+        "name": "Yes",
+        "description": ""
+    }
+},
+{
+    "model": "service_development.voicelabel",
+    "pk": 22,
+    "fields": {
+        "name": "No",
+        "description": ""
+    }
+},
+{
+    "model": "service_development.voicelabel",
+    "pk": 131,
+    "fields": {
+        "name": "Select region",
+        "description": ""
+    }
+},
+{
+    "model": "service_development.voicelabel",
+    "pk": 132,
+    "fields": {
+        "name": "Eastern",
+        "description": ""
+    }
+},
+{
+    "model": "service_development.voicelabel",
+    "pk": 133,
+    "fields": {
+        "name": "Western",
+        "description": ""
+    }
+},
+{
+    "model": "service_development.voicelabel",
+    "pk": 134,
+    "fields": {
+        "name": "Select animal",
+        "description": ""
+    }
+},
+{
+    "model": "service_development.voicelabel",
+    "pk": 135,
+    "fields": {
+        "name": "Cow",
+        "description": ""
+    }
+},
+{
+    "model": "service_development.voicelabel",
+    "pk": 136,
+    "fields": {
+        "name": "Chicken",
+        "description": ""
+    }
+},
+{
+    "model": "service_development.voicelabel",
+    "pk": 137,
+    "fields": {
+        "name": "Welcome to MobileVet",
+        "description": ""
+    }
+},
+{
+    "model": "service_development.voicelabel",
+    "pk": 138,
+    "fields": {
+        "name": "Sudden death signs",
+        "description": ""
+    }
+},
+{
+    "model": "service_development.voicelabel",
+    "pk": 139,
+    "fields": {
+        "name": "Fever signs (cattle)",
+        "description": ""
+    }
+},
+{
+    "model": "service_development.voicelabel",
+    "pk": 140,
+    "fields": {
+        "name": "Sudden collapse signs (cattle)",
+        "description": ""
+    }
+},
+{
+    "model": "service_development.voicelabel",
+    "pk": 141,
+    "fields": {
+        "name": "Difficulty breathing signs",
+        "description": ""
+    }
+},
+{
+    "model": "service_development.voicelabel",
+    "pk": 142,
+    "fields": {
+        "name": "Less eggs signs (chicken)",
+        "description": ""
+    }
+},
+{
+    "model": "service_development.voicelabel",
+    "pk": 143,
+    "fields": {
+        "name": "Twisted neck signs (chicken)",
+        "description": ""
+    }
+},
+{
+    "model": "service_development.voicelabel",
+    "pk": 144,
+    "fields": {
+        "name": "Waiting diagnosis",
+        "description": ""
+    }
+},
+{
+    "model": "service_development.voicelabel",
+    "pk": 145,
+    "fields": {
+        "name": "Anthrax description",
+        "description": ""
+    }
+},
+{
+    "model": "service_development.voicelabel",
+    "pk": 146,
+    "fields": {
+        "name": "Anthrax treatment",
+        "description": ""
+    }
+},
+{
+    "model": "service_development.voicelabel",
+    "pk": 147,
+    "fields": {
+        "name": "Bloat description",
+        "description": ""
+    }
+},
+{
+    "model": "service_development.voicelabel",
+    "pk": 148,
+    "fields": {
+        "name": "Bloat treatment",
+        "description": ""
+    }
+},
+{
+    "model": "service_development.voicelabel",
+    "pk": 149,
+    "fields": {
+        "name": "CBPP description",
+        "description": ""
+    }
+},
+{
+    "model": "service_development.voicelabel",
+    "pk": 150,
+    "fields": {
+        "name": "CBPP treatment",
+        "description": ""
+    }
+},
+{
+    "model": "service_development.voicelabel",
+    "pk": 151,
+    "fields": {
+        "name": "Avian Influenza description",
+        "description": ""
+    }
+},
+{
+    "model": "service_development.voicelabel",
+    "pk": 152,
+    "fields": {
+        "name": "Avian Influenza treatment",
+        "description": ""
+    }
+},
+{
+    "model": "service_development.voicelabel",
+    "pk": 153,
+    "fields": {
+        "name": "Fowl pox description",
+        "description": ""
+    }
+},
+{
+    "model": "service_development.voicelabel",
+    "pk": 154,
+    "fields": {
+        "name": "Fowl pox treatment",
+        "description": ""
+    }
+},
+{
+    "model": "service_development.voicelabel",
+    "pk": 155,
+    "fields": {
+        "name": "Necwcastle disease description",
+        "description": ""
+    }
+},
+{
+    "model": "service_development.voicelabel",
+    "pk": 156,
+    "fields": {
+        "name": "Necwcastle disease treatment",
+        "description": ""
+    }
+},
+{
+    "model": "service_development.voicelabel",
+    "pk": 157,
+    "fields": {
+        "name": "Unindentified disease",
+        "description": ""
+    }
+},
+{
+    "model": "service_development.voicelabel",
+    "pk": 158,
+    "fields": {
+        "name": "Urgent disease",
+        "description": ""
+    }
+},
+{
+    "model": "service_development.voicelabel",
+    "pk": 159,
+    "fields": {
+        "name": "Select veterinarian",
+        "description": ""
+    }
+},
+{
+    "model": "service_development.voicelabel",
+    "pk": 160,
+    "fields": {
+        "name": "Dr. Amoro Nelson Agemga",
+        "description": ""
+    }
+},
+{
+    "model": "service_development.voicelabel",
+    "pk": 161,
+    "fields": {
+        "name": "Dr. Baba Issah",
+        "description": ""
+    }
+},
+{
+    "model": "service_development.voicelabel",
+    "pk": 162,
+    "fields": {
+        "name": "Dr. Ebo Annan",
+        "description": ""
+    }
+},
+{
+    "model": "service_development.voicelabel",
+    "pk": 163,
+    "fields": {
+        "name": "Dr. Kwadwo Nikrumah",
+        "description": ""
+    }
+},
+{
+    "model": "service_development.voicelabel",
+    "pk": 164,
+    "fields": {
+        "name": "Call veterinarian",
+        "description": ""
+    }
+},
+{
+    "model": "service_development.voicelabel",
+    "pk": 165,
+    "fields": {
+        "name": "Now",
+        "description": ""
+    }
+},
+{
+    "model": "service_development.voicelabel",
+    "pk": 166,
+    "fields": {
+        "name": "Later",
+        "description": ""
+    }
+},
+{
+    "model": "service_development.voicelabel",
+    "pk": 167,
+    "fields": {
+        "name": "Send vet contact",
+        "description": ""
+    }
+},
+{
+    "model": "service_development.voicelabel",
+    "pk": 168,
+    "fields": {
+        "name": "Redirect call to vet",
+        "description": ""
+    }
+},
+{
+    "model": "service_development.voicelabel",
+    "pk": 169,
+    "fields": {
+        "name": "Weight loss signs",
+        "description": ""
+    }
+},
+{
+    "model": "service_development.voicelabel",
+    "pk": 170,
+    "fields": {
+        "name": "Diarrhea signs",
+        "description": ""
+    }
+},
+{
+    "model": "service_development.voicelabel",
+    "pk": 171,
+    "fields": {
+        "name": "Lameness signs",
+        "description": ""
+    }
+},
+{
+    "model": "service_development.voicelabel",
+    "pk": 172,
+    "fields": {
+        "name": "Lumps signs",
+        "description": ""
+    }
+},
+{
+    "model": "service_development.voicelabel",
+    "pk": 173,
+    "fields": {
+        "name": "Reluctant move signs",
+        "description": ""
+    }
+},
+{
+    "model": "service_development.voicelabel",
+    "pk": 174,
+    "fields": {
+        "name": "Oral lesion signs",
+        "description": ""
+    }
+},
+{
+    "model": "service_development.voicelabel",
+    "pk": 175,
+    "fields": {
+        "name": "Swollen signs",
+        "description": ""
+    }
+},
+{
+    "model": "service_development.voicelabel",
+    "pk": 176,
+    "fields": {
+        "name": "Lethargic and trembling signs",
+        "description": ""
+    }
+},
+{
+    "model": "service_development.voicelabel",
+    "pk": 177,
+    "fields": {
+        "name": "Gut worm description",
+        "description": ""
+    }
+},
+{
+    "model": "service_development.voicelabel",
+    "pk": 178,
+    "fields": {
+        "name": "Gut worm treatment",
+        "description": ""
+    }
+},
+{
+    "model": "service_development.voicelabel",
+    "pk": 179,
+    "fields": {
+        "name": "Foot Rot description",
+        "description": ""
+    }
+},
+{
+    "model": "service_development.voicelabel",
+    "pk": 180,
+    "fields": {
+        "name": "Foot Rot treatment",
+        "description": ""
+    }
+},
+{
+    "model": "service_development.voicelabel",
+    "pk": 181,
+    "fields": {
+        "name": "Parasites description",
+        "description": ""
+    }
+},
+{
+    "model": "service_development.voicelabel",
+    "pk": 182,
+    "fields": {
+        "name": "Parasites treatment",
+        "description": ""
+    }
+},
+{
+    "model": "service_development.voicelabel",
+    "pk": 183,
+    "fields": {
+        "name": "FMD description",
+        "description": ""
+    }
+},
+{
+    "model": "service_development.voicelabel",
+    "pk": 184,
+    "fields": {
+        "name": "FMD treatment",
+        "description": ""
+    }
+},
+{
+    "model": "service_development.voicelabel",
+    "pk": 185,
+    "fields": {
+        "name": "Black leg description",
+        "description": ""
+    }
+},
+{
+    "model": "service_development.voicelabel",
+    "pk": 186,
+    "fields": {
+        "name": "Black leg treatment",
+        "description": ""
+    }
+},
+{
+    "model": "service_development.voicelabel",
+    "pk": 187,
+    "fields": {
+        "name": "Goat",
+        "description": ""
+    }
+},
+{
+    "model": "service_development.voicelabel",
+    "pk": 188,
+    "fields": {
+        "name": "Sheep",
+        "description": ""
+    }
+},
+{
+    "model": "service_development.voicelabel",
+    "pk": 189,
+    "fields": {
+        "name": "Sikasso",
+        "description": ""
+    }
+},
+{
+    "model": "service_development.voicelabel",
+    "pk": 190,
+    "fields": {
+        "name": "Kayes",
+        "description": ""
+    }
+},
+{
+    "model": "service_development.voicelabel",
+    "pk": 191,
+    "fields": {
+        "name": "Koulikoro",
+        "description": ""
+    }
+},
+{
+    "model": "service_development.voicelabel",
+    "pk": 192,
+    "fields": {
+        "name": "Bamako",
+        "description": ""
+    }
+},
+{
+    "model": "service_development.voicelabel",
+    "pk": 193,
+    "fields": {
+        "name": "Mopti",
+        "description": ""
+    }
+},
+{
+    "model": "service_development.voicelabel",
+    "pk": 194,
+    "fields": {
+        "name": "Segou",
+        "description": ""
+    }
+},
+{
+    "model": "service_development.voicelabel",
+    "pk": 195,
+    "fields": {
+        "name": "Dr Tangara",
+        "description": ""
+    }
+},
+{
+    "model": "service_development.voicelabel",
+    "pk": 196,
+    "fields": {
+        "name": "Dr Charles",
+        "description": ""
+    }
+},
+{
+    "model": "service_development.voicelabel",
+    "pk": 197,
+    "fields": {
+        "name": "Validate region",
+        "description": ""
+    }
+},
+{
+    "model": "service_development.language",
+    "pk": 1,
+    "fields": {
+        "name": "Nederlands",
+        "code": "nl",
+        "voice_label": 1,
+        "error_message": 2,
+        "select_language": 8,
+        "pre_choice_option": 9,
+        "post_choice_option": 10,
+        "validate_region_message": 197,
+        "yes": 21,
+        "no": 22,
+        "one": 11,
+        "two": 12,
+        "three": 13,
+        "four": 14,
+        "five": 15,
+        "six": 16,
+        "seven": 17,
+        "eight": 18,
+        "nine": 19,
+        "zero": 20
+    }
+},
+{
+    "model": "service_development.language",
+    "pk": 2,
+    "fields": {
+        "name": "English",
+        "code": "en",
+        "voice_label": 4,
+        "error_message": 2,
+        "select_language": 8,
+        "pre_choice_option": 9,
+        "post_choice_option": 10,
+        "validate_region_message": 197,
+        "yes": 21,
+        "no": 22,
+        "one": 11,
+        "two": 12,
+        "three": 13,
+        "four": 14,
+        "five": 15,
+        "six": 16,
+        "seven": 17,
+        "eight": 18,
+        "nine": 19,
+        "zero": 20
+    }
+},
+{
+    "model": "service_development.language",
+    "pk": 3,
+    "fields": {
+        "name": "French",
+        "code": "fr",
+        "voice_label": 7,
+        "error_message": 2,
+        "select_language": 8,
+        "pre_choice_option": 9,
+        "post_choice_option": 10,
+        "validate_region_message": 197,
+        "yes": 21,
+        "no": 22,
+        "one": 11,
+        "two": 12,
+        "three": 13,
+        "four": 14,
+        "five": 15,
+        "six": 16,
+        "seven": 17,
+        "eight": 18,
+        "nine": 19,
+        "zero": 20
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 7,
+    "fields": {
+        "parent": 22,
+        "language": 2,
+        "audio": "no_en.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 8,
+    "fields": {
+        "parent": 22,
+        "language": 3,
+        "audio": "no_fr.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 10,
+    "fields": {
+        "parent": 21,
+        "language": 2,
+        "audio": "yes_en.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 11,
+    "fields": {
+        "parent": 21,
+        "language": 3,
+        "audio": "yes_fr.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 13,
+    "fields": {
+        "parent": 20,
+        "language": 2,
+        "audio": "0_en.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 14,
+    "fields": {
+        "parent": 20,
+        "language": 3,
+        "audio": "0_fr.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 16,
+    "fields": {
+        "parent": 19,
+        "language": 2,
+        "audio": "9_fr.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 17,
+    "fields": {
+        "parent": 19,
+        "language": 3,
+        "audio": "9_en.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 19,
+    "fields": {
+        "parent": 18,
+        "language": 2,
+        "audio": "8_en.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 20,
+    "fields": {
+        "parent": 18,
+        "language": 3,
+        "audio": "8_fr.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 22,
+    "fields": {
+        "parent": 17,
+        "language": 2,
+        "audio": "7_en.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 23,
+    "fields": {
+        "parent": 17,
+        "language": 3,
+        "audio": "7_fr.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 25,
+    "fields": {
+        "parent": 16,
+        "language": 2,
+        "audio": "6_en.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 26,
+    "fields": {
+        "parent": 16,
+        "language": 3,
+        "audio": "6_fr.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 28,
+    "fields": {
+        "parent": 15,
+        "language": 2,
+        "audio": "5_en.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 29,
+    "fields": {
+        "parent": 15,
+        "language": 3,
+        "audio": "5_fr.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 31,
+    "fields": {
+        "parent": 14,
+        "language": 3,
+        "audio": "4_fr.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 32,
+    "fields": {
+        "parent": 14,
+        "language": 2,
+        "audio": "4_en.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 34,
+    "fields": {
+        "parent": 13,
+        "language": 2,
+        "audio": "3_en.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 35,
+    "fields": {
+        "parent": 13,
+        "language": 3,
+        "audio": "3_fr.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 37,
+    "fields": {
+        "parent": 12,
+        "language": 2,
+        "audio": "2_en.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 38,
+    "fields": {
+        "parent": 12,
+        "language": 3,
+        "audio": "2_fr.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 40,
+    "fields": {
+        "parent": 11,
+        "language": 2,
+        "audio": "1_en.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 41,
+    "fields": {
+        "parent": 11,
+        "language": 3,
+        "audio": "1_fr.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 43,
+    "fields": {
+        "parent": 10,
+        "language": 2,
+        "audio": "postoption_en.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 44,
+    "fields": {
+        "parent": 10,
+        "language": 3,
+        "audio": "postoption_fr.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 46,
+    "fields": {
+        "parent": 9,
+        "language": 2,
+        "audio": "preoption_en.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 47,
+    "fields": {
+        "parent": 9,
+        "language": 3,
+        "audio": "preoption_fr.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 49,
+    "fields": {
+        "parent": 8,
+        "language": 2,
+        "audio": "selectlang_en.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 50,
+    "fields": {
+        "parent": 8,
+        "language": 3,
+        "audio": "selectlang_fr.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 52,
+    "fields": {
+        "parent": 7,
+        "language": 2,
+        "audio": "french_en.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 53,
+    "fields": {
+        "parent": 7,
+        "language": 3,
+        "audio": "french_fr.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 56,
+    "fields": {
+        "parent": 5,
+        "language": 2,
+        "audio": "thankyou_en.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 57,
+    "fields": {
+        "parent": 5,
+        "language": 3,
+        "audio": "thankyou_fr.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 59,
+    "fields": {
+        "parent": 4,
+        "language": 2,
+        "audio": "english_en.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 60,
+    "fields": {
+        "parent": 4,
+        "language": 3,
+        "audio": "english_fr.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 65,
+    "fields": {
+        "parent": 2,
+        "language": 2,
+        "audio": "error_en.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 66,
+    "fields": {
+        "parent": 2,
+        "language": 3,
+        "audio": "error_fr.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 67,
+    "fields": {
+        "parent": 1,
+        "language": 1,
+        "audio": "dutch_nl.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 68,
+    "fields": {
+        "parent": 1,
+        "language": 2,
+        "audio": "dutch_en.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 69,
+    "fields": {
+        "parent": 1,
+        "language": 3,
+        "audio": "dutch_fr.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 206,
+    "fields": {
+        "parent": 131,
+        "language": 2,
+        "audio": "selectregion_en.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 207,
+    "fields": {
+        "parent": 132,
+        "language": 2,
+        "audio": "eastern_region_en.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 208,
+    "fields": {
+        "parent": 133,
+        "language": 2,
+        "audio": "western_region_en.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 209,
+    "fields": {
+        "parent": 134,
+        "language": 2,
+        "audio": "selectanimal_en.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 210,
+    "fields": {
+        "parent": 135,
+        "language": 2,
+        "audio": "cow_en.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 211,
+    "fields": {
+        "parent": 136,
+        "language": 2,
+        "audio": "chicken_en.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 212,
+    "fields": {
+        "parent": 137,
+        "language": 2,
+        "audio": "welcome_MobileVet_en.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 213,
+    "fields": {
+        "parent": 138,
+        "language": 2,
+        "audio": "suddendeath_en.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 214,
+    "fields": {
+        "parent": 139,
+        "language": 2,
+        "audio": "fever_en.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 215,
+    "fields": {
+        "parent": 140,
+        "language": 2,
+        "audio": "suddencollapse_en.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 216,
+    "fields": {
+        "parent": 141,
+        "language": 2,
+        "audio": "difficultybreathing_en.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 217,
+    "fields": {
+        "parent": 142,
+        "language": 2,
+        "audio": "lesseggs_en.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 218,
+    "fields": {
+        "parent": 143,
+        "language": 2,
+        "audio": "twistedneck_en.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 219,
+    "fields": {
+        "parent": 144,
+        "language": 2,
+        "audio": "diagnose_en.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 220,
+    "fields": {
+        "parent": 145,
+        "language": 2,
+        "audio": "anthrax_en.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 221,
+    "fields": {
+        "parent": 146,
+        "language": 2,
+        "audio": "anthrax_treatment_en.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 222,
+    "fields": {
+        "parent": 147,
+        "language": 2,
+        "audio": "bloating_en.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 223,
+    "fields": {
+        "parent": 148,
+        "language": 2,
+        "audio": "bloating_treatment_en.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 224,
+    "fields": {
+        "parent": 149,
+        "language": 2,
+        "audio": "cbpp_en.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 225,
+    "fields": {
+        "parent": 150,
+        "language": 2,
+        "audio": "cbpp_treatment_en.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 232,
+    "fields": {
+        "parent": 157,
+        "language": 2,
+        "audio": "unidentified_en.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 233,
+    "fields": {
+        "parent": 158,
+        "language": 2,
+        "audio": "urgent_en.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 234,
+    "fields": {
+        "parent": 159,
+        "language": 2,
+        "audio": "selectvet_en.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 235,
+    "fields": {
+        "parent": 160,
+        "language": 2,
+        "audio": "dr_amoro_en.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 236,
+    "fields": {
+        "parent": 161,
+        "language": 2,
+        "audio": "dr_baba_en.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 237,
+    "fields": {
+        "parent": 162,
+        "language": 2,
+        "audio": "dr_ebo_en.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 238,
+    "fields": {
+        "parent": 163,
+        "language": 2,
+        "audio": "dr_kwadwo_en.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 239,
+    "fields": {
+        "parent": 164,
+        "language": 2,
+        "audio": "callvet_noworlater_en.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 240,
+    "fields": {
+        "parent": 165,
+        "language": 2,
+        "audio": "now_en.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 241,
+    "fields": {
+        "parent": 166,
+        "language": 2,
+        "audio": "later_en.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 242,
+    "fields": {
+        "parent": 167,
+        "language": 2,
+        "audio": "send_vetcontact_en.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 243,
+    "fields": {
+        "parent": 168,
+        "language": 2,
+        "audio": "redirectcall_en.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 244,
+    "fields": {
+        "parent": 155,
+        "language": 2,
+        "audio": "newcastle_en.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 245,
+    "fields": {
+        "parent": 156,
+        "language": 2,
+        "audio": "newcastle_treatment_en.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 246,
+    "fields": {
+        "parent": 153,
+        "language": 2,
+        "audio": "fowlpox_en.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 247,
+    "fields": {
+        "parent": 154,
+        "language": 2,
+        "audio": "fowlpox_treatment_en.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 248,
+    "fields": {
+        "parent": 151,
+        "language": 2,
+        "audio": "avianflu_en.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 249,
+    "fields": {
+        "parent": 152,
+        "language": 2,
+        "audio": "avianflu_treatment_en.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 250,
+    "fields": {
+        "parent": 168,
+        "language": 3,
+        "audio": "redirectcall_fr.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 251,
+    "fields": {
+        "parent": 167,
+        "language": 3,
+        "audio": "send_vetcontact_fr.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 252,
+    "fields": {
+        "parent": 166,
+        "language": 3,
+        "audio": "later_fr.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 253,
+    "fields": {
+        "parent": 165,
+        "language": 3,
+        "audio": "now_fr.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 254,
+    "fields": {
+        "parent": 164,
+        "language": 3,
+        "audio": "callvet_noworlater_fr.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 255,
+    "fields": {
+        "parent": 163,
+        "language": 3,
+        "audio": "dr_kwadwo_fr.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 256,
+    "fields": {
+        "parent": 162,
+        "language": 3,
+        "audio": "dr_ebo_fr.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 257,
+    "fields": {
+        "parent": 161,
+        "language": 3,
+        "audio": "dr_baba_fr.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 258,
+    "fields": {
+        "parent": 160,
+        "language": 3,
+        "audio": "dr_amoro_fr.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 259,
+    "fields": {
+        "parent": 159,
+        "language": 3,
+        "audio": "selectvet_fr.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 260,
+    "fields": {
+        "parent": 158,
+        "language": 3,
+        "audio": "urgent_fr.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 261,
+    "fields": {
+        "parent": 157,
+        "language": 3,
+        "audio": "undidentified_fr.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 262,
+    "fields": {
+        "parent": 156,
+        "language": 3,
+        "audio": "newcastle_treatment_fr.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 263,
+    "fields": {
+        "parent": 155,
+        "language": 3,
+        "audio": "newcastle_fr.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 264,
+    "fields": {
+        "parent": 154,
+        "language": 3,
+        "audio": "fowlpox_treatment_fr.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 265,
+    "fields": {
+        "parent": 153,
+        "language": 3,
+        "audio": "fowlpox_fr.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 266,
+    "fields": {
+        "parent": 152,
+        "language": 3,
+        "audio": "avianflu_treatment_fr.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 267,
+    "fields": {
+        "parent": 151,
+        "language": 3,
+        "audio": "avianflu_fr.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 268,
+    "fields": {
+        "parent": 150,
+        "language": 3,
+        "audio": "cbpp_treatment_fr.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 269,
+    "fields": {
+        "parent": 149,
+        "language": 3,
+        "audio": "cbpp_fr.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 270,
+    "fields": {
+        "parent": 148,
+        "language": 3,
+        "audio": "bloating_treatment_fr.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 271,
+    "fields": {
+        "parent": 147,
+        "language": 3,
+        "audio": "bloating_fr.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 272,
+    "fields": {
+        "parent": 146,
+        "language": 3,
+        "audio": "anthrax_treatment_fr.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 273,
+    "fields": {
+        "parent": 145,
+        "language": 3,
+        "audio": "anthrax_fr.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 274,
+    "fields": {
+        "parent": 144,
+        "language": 3,
+        "audio": "diagnose_fr.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 275,
+    "fields": {
+        "parent": 143,
+        "language": 3,
+        "audio": "twistedneck_fr.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 276,
+    "fields": {
+        "parent": 142,
+        "language": 3,
+        "audio": "lesseggs_fr.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 277,
+    "fields": {
+        "parent": 141,
+        "language": 3,
+        "audio": "difficultybreathing_fr.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 278,
+    "fields": {
+        "parent": 140,
+        "language": 3,
+        "audio": "suddencollapse_fr.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 279,
+    "fields": {
+        "parent": 139,
+        "language": 3,
+        "audio": "fever_fr.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 280,
+    "fields": {
+        "parent": 138,
+        "language": 3,
+        "audio": "suddendeath_fr.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 281,
+    "fields": {
+        "parent": 137,
+        "language": 3,
+        "audio": "welcome_MobileVet_fr.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 282,
+    "fields": {
+        "parent": 136,
+        "language": 3,
+        "audio": "chicken_fr.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 283,
+    "fields": {
+        "parent": 135,
+        "language": 3,
+        "audio": "cow_fr.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 284,
+    "fields": {
+        "parent": 134,
+        "language": 3,
+        "audio": "selectanimal_fr.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 285,
+    "fields": {
+        "parent": 133,
+        "language": 3,
+        "audio": "western_region_fr.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 286,
+    "fields": {
+        "parent": 132,
+        "language": 3,
+        "audio": "eastern_region_fr.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 287,
+    "fields": {
+        "parent": 131,
+        "language": 3,
+        "audio": "selectregion_fr.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 288,
+    "fields": {
+        "parent": 169,
+        "language": 2,
+        "audio": "weightloss_en.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 289,
+    "fields": {
+        "parent": 169,
+        "language": 3,
+        "audio": "weightloss_fr.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 290,
+    "fields": {
+        "parent": 170,
+        "language": 2,
+        "audio": "diarrhea_en.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 291,
+    "fields": {
+        "parent": 170,
+        "language": 3,
+        "audio": "diarrhea_fr.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 292,
+    "fields": {
+        "parent": 171,
+        "language": 2,
+        "audio": "lameness_en.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 293,
+    "fields": {
+        "parent": 171,
+        "language": 3,
+        "audio": "lameness_fr.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 294,
+    "fields": {
+        "parent": 172,
+        "language": 2,
+        "audio": "lumps_en.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 295,
+    "fields": {
+        "parent": 172,
+        "language": 3,
+        "audio": "lumps_fr.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 296,
+    "fields": {
+        "parent": 173,
+        "language": 2,
+        "audio": "reluctantmove_en.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 297,
+    "fields": {
+        "parent": 173,
+        "language": 3,
+        "audio": "reluctantmove_fr.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 298,
+    "fields": {
+        "parent": 174,
+        "language": 2,
+        "audio": "oralyellowpatch_en.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 299,
+    "fields": {
+        "parent": 174,
+        "language": 3,
+        "audio": "oralyellowpatch_fr.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 300,
+    "fields": {
+        "parent": 175,
+        "language": 2,
+        "audio": "swollenlowerbody_en.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 301,
+    "fields": {
+        "parent": 175,
+        "language": 3,
+        "audio": "swollenlowerbody_fr.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 302,
+    "fields": {
+        "parent": 176,
+        "language": 2,
+        "audio": "lethargictrembling_en.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 303,
+    "fields": {
+        "parent": 176,
+        "language": 3,
+        "audio": "lethargictrembling_fr.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 304,
+    "fields": {
+        "parent": 177,
+        "language": 2,
+        "audio": "gutworm_en.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 305,
+    "fields": {
+        "parent": 178,
+        "language": 2,
+        "audio": "gutworm_treatment_en.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 306,
+    "fields": {
+        "parent": 179,
+        "language": 2,
+        "audio": "footrot_en.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 307,
+    "fields": {
+        "parent": 180,
+        "language": 2,
+        "audio": "footrot_treatment_en.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 308,
+    "fields": {
+        "parent": 181,
+        "language": 2,
+        "audio": "parasites_en.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 309,
+    "fields": {
+        "parent": 182,
+        "language": 2,
+        "audio": "parasites_treatment_en.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 310,
+    "fields": {
+        "parent": 182,
+        "language": 3,
+        "audio": "parasites_treatment_fr.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 311,
+    "fields": {
+        "parent": 183,
+        "language": 2,
+        "audio": "fmd_en.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 312,
+    "fields": {
+        "parent": 184,
+        "language": 2,
+        "audio": "fmd_treatment_en.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 313,
+    "fields": {
+        "parent": 185,
+        "language": 2,
+        "audio": "blackleg_en.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 314,
+    "fields": {
+        "parent": 186,
+        "language": 2,
+        "audio": "blackleg_treatment_en.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 315,
+    "fields": {
+        "parent": 187,
+        "language": 2,
+        "audio": "goat_en.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 316,
+    "fields": {
+        "parent": 187,
+        "language": 3,
+        "audio": "goat_fr.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 317,
+    "fields": {
+        "parent": 188,
+        "language": 2,
+        "audio": "sheep_en.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 318,
+    "fields": {
+        "parent": 188,
+        "language": 3,
+        "audio": "sheep_fr.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 319,
+    "fields": {
+        "parent": 189,
+        "language": 2,
+        "audio": "sikasso_en.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 320,
+    "fields": {
+        "parent": 189,
+        "language": 3,
+        "audio": "sikasso_fr.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 321,
+    "fields": {
+        "parent": 190,
+        "language": 2,
+        "audio": "kayes_en.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 322,
+    "fields": {
+        "parent": 190,
+        "language": 3,
+        "audio": "kayes_fr.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 323,
+    "fields": {
+        "parent": 191,
+        "language": 2,
+        "audio": "koulikoro_en.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 324,
+    "fields": {
+        "parent": 191,
+        "language": 3,
+        "audio": "koulikoro_fr.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 325,
+    "fields": {
+        "parent": 192,
+        "language": 2,
+        "audio": "bamako_en.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 326,
+    "fields": {
+        "parent": 192,
+        "language": 3,
+        "audio": "bamako_fr.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 327,
+    "fields": {
+        "parent": 193,
+        "language": 2,
+        "audio": "mopti_en.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 328,
+    "fields": {
+        "parent": 193,
+        "language": 3,
+        "audio": "mopti_fr.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 329,
+    "fields": {
+        "parent": 194,
+        "language": 2,
+        "audio": "segou_en.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 330,
+    "fields": {
+        "parent": 194,
+        "language": 3,
+        "audio": "segou_fr.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 331,
+    "fields": {
+        "parent": 186,
+        "language": 3,
+        "audio": "blackleg_treatment_fr.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 332,
+    "fields": {
+        "parent": 185,
+        "language": 3,
+        "audio": "blackleg_fr.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 333,
+    "fields": {
+        "parent": 184,
+        "language": 3,
+        "audio": "fmd_treatment_fr.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 334,
+    "fields": {
+        "parent": 183,
+        "language": 3,
+        "audio": "fmd_fr.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 335,
+    "fields": {
+        "parent": 181,
+        "language": 3,
+        "audio": "parasites_fr.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 336,
+    "fields": {
+        "parent": 180,
+        "language": 3,
+        "audio": "footrot_treatment_fr.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 337,
+    "fields": {
+        "parent": 179,
+        "language": 3,
+        "audio": "footrot_fr.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 338,
+    "fields": {
+        "parent": 178,
+        "language": 3,
+        "audio": "gutworm_treatment_fr.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 339,
+    "fields": {
+        "parent": 177,
+        "language": 3,
+        "audio": "gutworm_fr.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 340,
+    "fields": {
+        "parent": 195,
+        "language": 2,
+        "audio": "dr_tangara_en.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 341,
+    "fields": {
+        "parent": 195,
+        "language": 3,
+        "audio": "dr_tangara_fr.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 342,
+    "fields": {
+        "parent": 196,
+        "language": 2,
+        "audio": "dr_charles_en.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 343,
+    "fields": {
+        "parent": 196,
+        "language": 3,
+        "audio": "dr_charles_fr.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 344,
+    "fields": {
+        "parent": 197,
+        "language": 2,
+        "audio": "validate_region_en_e5zGL23.wav"
+    }
+},
+{
+    "model": "service_development.voicefragment",
+    "pk": 345,
+    "fields": {
+        "parent": 197,
+        "language": 3,
+        "audio": "validate_region_fr_CKQqRlF.wav"
+    }
+},
+{
+    "model": "service_development.voiceservicesubelement",
+    "pk": 6,
+    "fields": {
+        "service": 4,
+        "creation_date": "2017-04-23T21:11:06.805Z",
+        "modification_date": "2017-05-05T01:22:53.392Z",
+        "name": "Thank you for using this service",
+        "description": "",
+        "voice_label": 5
+    }
+},
+{
+    "model": "service_development.voiceservicesubelement",
+    "pk": 124,
+    "fields": {
+        "service": 4,
+        "creation_date": "2017-05-05T00:23:39.282Z",
+        "modification_date": "2017-05-17T15:34:58.253Z",
+        "name": "Select region",
+        "description": "",
+        "voice_label": 131
+    }
+},
+{
+    "model": "service_development.voiceservicesubelement",
+    "pk": 125,
+    "fields": {
+        "service": 4,
+        "creation_date": "2017-05-05T00:23:39.312Z",
+        "modification_date": "2017-05-17T15:34:58.381Z",
+        "name": "Sikasso",
+        "description": "",
+        "voice_label": 189
+    }
+},
+{
+    "model": "service_development.voiceservicesubelement",
+    "pk": 126,
+    "fields": {
+        "service": 4,
+        "creation_date": "2017-05-05T00:23:39.317Z",
+        "modification_date": "2017-05-17T15:34:58.411Z",
+        "name": "Kayes",
+        "description": "",
+        "voice_label": 190
+    }
+},
+{
+    "model": "service_development.voiceservicesubelement",
+    "pk": 127,
+    "fields": {
+        "service": 4,
+        "creation_date": "2017-05-05T00:29:13.470Z",
+        "modification_date": "2017-05-15T15:40:19.011Z",
+        "name": "Select animal",
+        "description": "",
+        "voice_label": 134
+    }
+},
+{
+    "model": "service_development.voiceservicesubelement",
+    "pk": 128,
+    "fields": {
+        "service": 4,
+        "creation_date": "2017-05-05T00:29:13.547Z",
+        "modification_date": "2017-05-05T01:22:09.209Z",
+        "name": "Cow",
+        "description": "",
+        "voice_label": 135
+    }
+},
+{
+    "model": "service_development.voiceservicesubelement",
+    "pk": 129,
+    "fields": {
+        "service": 4,
+        "creation_date": "2017-05-05T00:29:13.548Z",
+        "modification_date": "2017-05-05T01:22:09.211Z",
+        "name": "Chicken",
+        "description": "",
+        "voice_label": 136
+    }
+},
+{
+    "model": "service_development.voiceservicesubelement",
+    "pk": 130,
+    "fields": {
+        "service": 4,
+        "creation_date": "2017-05-05T00:30:16.930Z",
+        "modification_date": "2017-05-15T09:41:28.071Z",
+        "name": "Welcome to MobileVet",
+        "description": "",
+        "voice_label": 137
+    }
+},
+{
+    "model": "service_development.voiceservicesubelement",
+    "pk": 131,
+    "fields": {
+        "service": 4,
+        "creation_date": "2017-05-05T00:40:54.992Z",
+        "modification_date": "2017-05-05T00:57:06.657Z",
+        "name": "Sudden death signs (cattle)",
+        "description": "",
+        "voice_label": 138
+    }
+},
+{
+    "model": "service_development.voiceservicesubelement",
+    "pk": 132,
+    "fields": {
+        "service": 4,
+        "creation_date": "2017-05-05T00:40:55.068Z",
+        "modification_date": "2017-05-05T00:57:06.662Z",
+        "name": "Sudden death signs (cattle) -Yes",
+        "description": "",
+        "voice_label": 21
+    }
+},
+{
+    "model": "service_development.voiceservicesubelement",
+    "pk": 133,
+    "fields": {
+        "service": 4,
+        "creation_date": "2017-05-05T00:40:55.069Z",
+        "modification_date": "2017-05-05T00:57:06.662Z",
+        "name": "Sudden death signs (cattle) - No",
+        "description": "",
+        "voice_label": 22
+    }
+},
+{
+    "model": "service_development.voiceservicesubelement",
+    "pk": 134,
+    "fields": {
+        "service": 4,
+        "creation_date": "2017-05-05T00:42:59.645Z",
+        "modification_date": "2017-05-05T00:57:25.538Z",
+        "name": "Fever signs (cattle)",
+        "description": "",
+        "voice_label": 139
+    }
+},
+{
+    "model": "service_development.voiceservicesubelement",
+    "pk": 135,
+    "fields": {
+        "service": 4,
+        "creation_date": "2017-05-05T00:42:59.758Z",
+        "modification_date": "2017-05-05T00:57:25.545Z",
+        "name": "Fever signs (cattle) - Yes",
+        "description": "",
+        "voice_label": 21
+    }
+},
+{
+    "model": "service_development.voiceservicesubelement",
+    "pk": 136,
+    "fields": {
+        "service": 4,
+        "creation_date": "2017-05-05T00:42:59.763Z",
+        "modification_date": "2017-05-05T00:57:25.547Z",
+        "name": "Fever signs (cattle) - No",
+        "description": "",
+        "voice_label": 22
+    }
+},
+{
+    "model": "service_development.voiceservicesubelement",
+    "pk": 137,
+    "fields": {
+        "service": 4,
+        "creation_date": "2017-05-05T00:44:07.668Z",
+        "modification_date": "2017-05-05T00:58:18.553Z",
+        "name": "Sudden collapse signs (cattle)",
+        "description": "",
+        "voice_label": 140
+    }
+},
+{
+    "model": "service_development.voiceservicesubelement",
+    "pk": 138,
+    "fields": {
+        "service": 4,
+        "creation_date": "2017-05-05T00:44:07.719Z",
+        "modification_date": "2017-05-05T00:58:18.557Z",
+        "name": "Sudden collapse signs (cattle) - Yes",
+        "description": "",
+        "voice_label": 21
+    }
+},
+{
+    "model": "service_development.voiceservicesubelement",
+    "pk": 139,
+    "fields": {
+        "service": 4,
+        "creation_date": "2017-05-05T00:44:07.721Z",
+        "modification_date": "2017-05-05T00:58:18.559Z",
+        "name": "Sudden collapse signs (cattle) - No",
+        "description": "",
+        "voice_label": 22
+    }
+},
+{
+    "model": "service_development.voiceservicesubelement",
+    "pk": 140,
+    "fields": {
+        "service": 4,
+        "creation_date": "2017-05-05T00:44:47.630Z",
+        "modification_date": "2017-05-05T00:58:00.135Z",
+        "name": "Difficulty breathing signs (cattle)",
+        "description": "",
+        "voice_label": 141
+    }
+},
+{
+    "model": "service_development.voiceservicesubelement",
+    "pk": 141,
+    "fields": {
+        "service": 4,
+        "creation_date": "2017-05-05T00:44:47.716Z",
+        "modification_date": "2017-05-05T00:58:00.147Z",
+        "name": "Difficulty breathing signs (cattle) - Yes",
+        "description": "",
+        "voice_label": 21
+    }
+},
+{
+    "model": "service_development.voiceservicesubelement",
+    "pk": 142,
+    "fields": {
+        "service": 4,
+        "creation_date": "2017-05-05T00:44:47.721Z",
+        "modification_date": "2017-05-05T00:58:00.148Z",
+        "name": "Difficulty breathing signs (cattle) - No",
+        "description": "",
+        "voice_label": 22
+    }
+},
+{
+    "model": "service_development.voiceservicesubelement",
+    "pk": 143,
+    "fields": {
+        "service": 4,
+        "creation_date": "2017-05-05T00:45:36.599Z",
+        "modification_date": "2017-05-05T00:53:12.586Z",
+        "name": "Sudden death signs (chicken)",
+        "description": "",
+        "voice_label": 138
+    }
+},
+{
+    "model": "service_development.voiceservicesubelement",
+    "pk": 144,
+    "fields": {
+        "service": 4,
+        "creation_date": "2017-05-05T00:45:36.629Z",
+        "modification_date": "2017-05-05T00:53:12.594Z",
+        "name": "Sudden death signs (chicken) - Yes",
+        "description": "",
+        "voice_label": 21
+    }
+},
+{
+    "model": "service_development.voiceservicesubelement",
+    "pk": 145,
+    "fields": {
+        "service": 4,
+        "creation_date": "2017-05-05T00:45:36.629Z",
+        "modification_date": "2017-05-05T00:53:12.595Z",
+        "name": "Sudden death signs (chicken) - No",
+        "description": "",
+        "voice_label": 22
+    }
+},
+{
+    "model": "service_development.voiceservicesubelement",
+    "pk": 146,
+    "fields": {
+        "service": 4,
+        "creation_date": "2017-05-05T00:46:08.990Z",
+        "modification_date": "2017-05-05T00:53:43.245Z",
+        "name": "Difficulty breathing signs (chicken)",
+        "description": "",
+        "voice_label": 141
+    }
+},
+{
+    "model": "service_development.voiceservicesubelement",
+    "pk": 147,
+    "fields": {
+        "service": 4,
+        "creation_date": "2017-05-05T00:46:09.158Z",
+        "modification_date": "2017-05-05T00:53:43.250Z",
+        "name": "Difficulty breathing signs (chicken) - Yes",
+        "description": "",
+        "voice_label": 21
+    }
+},
+{
+    "model": "service_development.voiceservicesubelement",
+    "pk": 148,
+    "fields": {
+        "service": 4,
+        "creation_date": "2017-05-05T00:46:09.164Z",
+        "modification_date": "2017-05-05T00:53:43.250Z",
+        "name": "Difficulty breathing signs (chicken) - No",
+        "description": "",
+        "voice_label": 22
+    }
+},
+{
+    "model": "service_development.voiceservicesubelement",
+    "pk": 149,
+    "fields": {
+        "service": 4,
+        "creation_date": "2017-05-05T00:47:03.004Z",
+        "modification_date": "2017-05-05T00:54:06.285Z",
+        "name": "Less eggs signs (chicken)",
+        "description": "",
+        "voice_label": 142
+    }
+},
+{
+    "model": "service_development.voiceservicesubelement",
+    "pk": 150,
+    "fields": {
+        "service": 4,
+        "creation_date": "2017-05-05T00:47:03.051Z",
+        "modification_date": "2017-05-05T00:54:06.285Z",
+        "name": "Less eggs signs (chicken) - Yes",
+        "description": "",
+        "voice_label": 21
+    }
+},
+{
+    "model": "service_development.voiceservicesubelement",
+    "pk": 151,
+    "fields": {
+        "service": 4,
+        "creation_date": "2017-05-05T00:47:03.052Z",
+        "modification_date": "2017-05-05T00:54:06.291Z",
+        "name": "Less eggs signs (chicken) - No",
+        "description": "",
+        "voice_label": 22
+    }
+},
+{
+    "model": "service_development.voiceservicesubelement",
+    "pk": 152,
+    "fields": {
+        "service": 4,
+        "creation_date": "2017-05-05T00:47:57.824Z",
+        "modification_date": "2017-05-05T00:56:30.657Z",
+        "name": "Twisted neck signs (chicken)",
+        "description": "",
+        "voice_label": 143
+    }
+},
+{
+    "model": "service_development.voiceservicesubelement",
+    "pk": 153,
+    "fields": {
+        "service": 4,
+        "creation_date": "2017-05-05T00:47:57.829Z",
+        "modification_date": "2017-05-05T00:56:30.662Z",
+        "name": "Twisted neck signs (chicken)",
+        "description": "",
+        "voice_label": 21
+    }
+},
+{
+    "model": "service_development.voiceservicesubelement",
+    "pk": 154,
+    "fields": {
+        "service": 4,
+        "creation_date": "2017-05-05T00:47:57.829Z",
+        "modification_date": "2017-05-05T00:56:30.663Z",
+        "name": "Twisted neck signs (chicken)",
+        "description": "",
+        "voice_label": 22
+    }
+},
+{
+    "model": "service_development.voiceservicesubelement",
+    "pk": 155,
+    "fields": {
+        "service": 4,
+        "creation_date": "2017-05-05T00:56:13.656Z",
+        "modification_date": "2017-05-05T05:16:15.842Z",
+        "name": "Waiting diagnosis",
+        "description": "",
+        "voice_label": 144
+    }
+},
+{
+    "model": "service_development.voiceservicesubelement",
+    "pk": 156,
+    "fields": {
+        "service": 4,
+        "creation_date": "2017-05-05T01:03:09.493Z",
+        "modification_date": "2017-05-05T01:08:26.429Z",
+        "name": "Anthrax description",
+        "description": "",
+        "voice_label": 145
+    }
+},
+{
+    "model": "service_development.voiceservicesubelement",
+    "pk": 157,
+    "fields": {
+        "service": 4,
+        "creation_date": "2017-05-05T01:03:43.332Z",
+        "modification_date": "2017-05-05T04:26:53.345Z",
+        "name": "Anthrax treatment",
+        "description": "",
+        "voice_label": 146
+    }
+},
+{
+    "model": "service_development.voiceservicesubelement",
+    "pk": 158,
+    "fields": {
+        "service": 4,
+        "creation_date": "2017-05-05T01:07:56.970Z",
+        "modification_date": "2017-05-05T01:07:56.970Z",
+        "name": "Bloat description",
+        "description": "",
+        "voice_label": 147
+    }
+},
+{
+    "model": "service_development.voiceservicesubelement",
+    "pk": 159,
+    "fields": {
+        "service": 4,
+        "creation_date": "2017-05-05T01:11:12.675Z",
+        "modification_date": "2017-05-05T04:27:24.503Z",
+        "name": "Bloat treatment",
+        "description": "",
+        "voice_label": 148
+    }
+},
+{
+    "model": "service_development.voiceservicesubelement",
+    "pk": 160,
+    "fields": {
+        "service": 4,
+        "creation_date": "2017-05-05T01:11:52.503Z",
+        "modification_date": "2017-05-05T01:12:36.313Z",
+        "name": "CBPP description",
+        "description": "",
+        "voice_label": 149
+    }
+},
+{
+    "model": "service_development.voiceservicesubelement",
+    "pk": 161,
+    "fields": {
+        "service": 4,
+        "creation_date": "2017-05-05T01:12:25.756Z",
+        "modification_date": "2017-05-05T01:12:25.756Z",
+        "name": "CBPP treatment",
+        "description": "",
+        "voice_label": 150
+    }
+},
+{
+    "model": "service_development.voiceservicesubelement",
+    "pk": 162,
+    "fields": {
+        "service": 4,
+        "creation_date": "2017-05-05T01:14:17.798Z",
+        "modification_date": "2017-05-05T01:18:19.027Z",
+        "name": "Avian Influenza description",
+        "description": "",
+        "voice_label": 151
+    }
+},
+{
+    "model": "service_development.voiceservicesubelement",
+    "pk": 163,
+    "fields": {
+        "service": 4,
+        "creation_date": "2017-05-05T01:14:54.276Z",
+        "modification_date": "2017-05-05T04:27:36.442Z",
+        "name": "Avian Influenza treatment",
+        "description": "",
+        "voice_label": 152
+    }
+},
+{
+    "model": "service_development.voiceservicesubelement",
+    "pk": 164,
+    "fields": {
+        "service": 4,
+        "creation_date": "2017-05-05T01:15:49.744Z",
+        "modification_date": "2017-05-05T01:18:03.594Z",
+        "name": "Fowl pox description",
+        "description": "",
+        "voice_label": 153
+    }
+},
+{
+    "model": "service_development.voiceservicesubelement",
+    "pk": 165,
+    "fields": {
+        "service": 4,
+        "creation_date": "2017-05-05T01:16:28.071Z",
+        "modification_date": "2017-05-05T04:27:48.081Z",
+        "name": "Fowl pox treatment",
+        "description": "",
+        "voice_label": 154
+    }
+},
+{
+    "model": "service_development.voiceservicesubelement",
+    "pk": 166,
+    "fields": {
+        "service": 4,
+        "creation_date": "2017-05-05T01:17:11.120Z",
+        "modification_date": "2017-05-05T01:17:52.105Z",
+        "name": "Necwcastle disease description",
+        "description": "",
+        "voice_label": 155
+    }
+},
+{
+    "model": "service_development.voiceservicesubelement",
+    "pk": 167,
+    "fields": {
+        "service": 4,
+        "creation_date": "2017-05-05T01:17:38.352Z",
+        "modification_date": "2017-05-05T01:17:38.352Z",
+        "name": "Necwcastle disease treatment",
+        "description": "",
+        "voice_label": 156
+    }
+},
+{
+    "model": "service_development.voiceservicesubelement",
+    "pk": 168,
+    "fields": {
+        "service": 4,
+        "creation_date": "2017-05-05T02:39:53.872Z",
+        "modification_date": "2017-05-15T13:18:16.310Z",
+        "name": "Unindentified disease",
+        "description": "",
+        "voice_label": 157
+    }
+},
+{
+    "model": "service_development.voiceservicesubelement",
+    "pk": 169,
+    "fields": {
+        "service": 4,
+        "creation_date": "2017-05-05T04:26:25.834Z",
+        "modification_date": "2017-05-15T09:42:58.912Z",
+        "name": "Urgent disease",
+        "description": "",
+        "voice_label": 158
+    }
+},
+{
+    "model": "service_development.voiceservicesubelement",
+    "pk": 175,
+    "fields": {
+        "service": 4,
+        "creation_date": "2017-05-05T04:48:18.384Z",
+        "modification_date": "2017-05-05T05:15:20.567Z",
+        "name": "Call veterinarian",
+        "description": "",
+        "voice_label": 164
+    }
+},
+{
+    "model": "service_development.voiceservicesubelement",
+    "pk": 176,
+    "fields": {
+        "service": 4,
+        "creation_date": "2017-05-05T04:48:18.493Z",
+        "modification_date": "2017-05-05T05:15:20.583Z",
+        "name": "Call now",
+        "description": "",
+        "voice_label": 165
+    }
+},
+{
+    "model": "service_development.voiceservicesubelement",
+    "pk": 177,
+    "fields": {
+        "service": 4,
+        "creation_date": "2017-05-05T04:48:18.498Z",
+        "modification_date": "2017-05-05T05:15:20.583Z",
+        "name": "Call later",
+        "description": "",
+        "voice_label": 166
+    }
+},
+{
+    "model": "service_development.voiceservicesubelement",
+    "pk": 178,
+    "fields": {
+        "service": 4,
+        "creation_date": "2017-05-05T04:49:56.338Z",
+        "modification_date": "2017-05-05T04:59:07.589Z",
+        "name": "Send vet contact",
+        "description": "",
+        "voice_label": 167
+    }
+},
+{
+    "model": "service_development.voiceservicesubelement",
+    "pk": 179,
+    "fields": {
+        "service": 4,
+        "creation_date": "2017-05-05T04:51:25.057Z",
+        "modification_date": "2017-05-25T14:35:37.438Z",
+        "name": "Redirect call to vet",
+        "description": "",
+        "voice_label": 168
+    }
+},
+{
+    "model": "service_development.voiceservicesubelement",
+    "pk": 180,
+    "fields": {
+        "service": 4,
+        "creation_date": "2017-05-15T10:27:43.314Z",
+        "modification_date": "2017-05-17T15:52:29.578Z",
+        "name": "Select veterinarian",
+        "description": "",
+        "voice_label": 159
+    }
+},
+{
+    "model": "service_development.voiceservicesubelement",
+    "pk": 181,
+    "fields": {
+        "service": 4,
+        "creation_date": "2017-05-15T10:27:43.470Z",
+        "modification_date": "2017-05-15T10:27:43.470Z",
+        "name": "Dr. Amoro Nelson Agemga",
+        "description": "",
+        "voice_label": 160
+    }
+},
+{
+    "model": "service_development.voiceservicesubelement",
+    "pk": 182,
+    "fields": {
+        "service": 4,
+        "creation_date": "2017-05-15T10:27:43.486Z",
+        "modification_date": "2017-05-15T10:27:43.486Z",
+        "name": "Dr. Baba Issah",
+        "description": "",
+        "voice_label": 161
+    }
+},
+{
+    "model": "service_development.voiceservicesubelement",
+    "pk": 183,
+    "fields": {
+        "service": 4,
+        "creation_date": "2017-05-15T10:27:43.486Z",
+        "modification_date": "2017-05-15T10:27:43.486Z",
+        "name": "Dr. Ebo Annan",
+        "description": "",
+        "voice_label": 162
+    }
+},
+{
+    "model": "service_development.voiceservicesubelement",
+    "pk": 184,
+    "fields": {
+        "service": 4,
+        "creation_date": "2017-05-15T10:27:43.486Z",
+        "modification_date": "2017-05-15T10:27:43.486Z",
+        "name": "Dr. Kwadwo Nikrumah",
+        "description": "",
+        "voice_label": 163
+    }
+},
+{
+    "model": "service_development.voiceservicesubelement",
+    "pk": 185,
+    "fields": {
+        "service": 4,
+        "creation_date": "2017-05-15T15:17:36.644Z",
+        "modification_date": "2017-05-26T03:23:09.591Z",
+        "name": "Gut worm treatment",
+        "description": "",
+        "voice_label": 178
+    }
+},
+{
+    "model": "service_development.voiceservicesubelement",
+    "pk": 186,
+    "fields": {
+        "service": 4,
+        "creation_date": "2017-05-15T15:17:59.851Z",
+        "modification_date": "2017-05-15T15:17:59.851Z",
+        "name": "Gut worm description",
+        "description": "",
+        "voice_label": 177
+    }
+},
+{
+    "model": "service_development.voiceservicesubelement",
+    "pk": 187,
+    "fields": {
+        "service": 4,
+        "creation_date": "2017-05-15T15:18:22.008Z",
+        "modification_date": "2017-05-15T15:18:22.008Z",
+        "name": "Foot Rot treatment",
+        "description": "",
+        "voice_label": 180
+    }
+},
+{
+    "model": "service_development.voiceservicesubelement",
+    "pk": 188,
+    "fields": {
+        "service": 4,
+        "creation_date": "2017-05-15T15:18:41.249Z",
+        "modification_date": "2017-05-15T15:18:41.249Z",
+        "name": "Foot Rot description",
+        "description": "",
+        "voice_label": 179
+    }
+},
+{
+    "model": "service_development.voiceservicesubelement",
+    "pk": 189,
+    "fields": {
+        "service": 4,
+        "creation_date": "2017-05-15T15:19:05.404Z",
+        "modification_date": "2017-05-15T15:19:05.404Z",
+        "name": "Parasites treatment",
+        "description": "",
+        "voice_label": 182
+    }
+},
+{
+    "model": "service_development.voiceservicesubelement",
+    "pk": 190,
+    "fields": {
+        "service": 4,
+        "creation_date": "2017-05-15T15:19:25.993Z",
+        "modification_date": "2017-05-15T15:19:25.993Z",
+        "name": "Parasites description",
+        "description": "",
+        "voice_label": 181
+    }
+},
+{
+    "model": "service_development.voiceservicesubelement",
+    "pk": 191,
+    "fields": {
+        "service": 4,
+        "creation_date": "2017-05-15T15:20:13.297Z",
+        "modification_date": "2017-05-15T15:20:13.297Z",
+        "name": "FMD treatment",
+        "description": "",
+        "voice_label": 184
+    }
+},
+{
+    "model": "service_development.voiceservicesubelement",
+    "pk": 192,
+    "fields": {
+        "service": 4,
+        "creation_date": "2017-05-15T15:20:31.462Z",
+        "modification_date": "2017-05-15T15:20:31.462Z",
+        "name": "FMD description",
+        "description": "",
+        "voice_label": 183
+    }
+},
+{
+    "model": "service_development.voiceservicesubelement",
+    "pk": 193,
+    "fields": {
+        "service": 4,
+        "creation_date": "2017-05-15T15:20:51.456Z",
+        "modification_date": "2017-05-15T15:20:51.456Z",
+        "name": "Black leg treatment",
+        "description": "",
+        "voice_label": 186
+    }
+},
+{
+    "model": "service_development.voiceservicesubelement",
+    "pk": 194,
+    "fields": {
+        "service": 4,
+        "creation_date": "2017-05-15T15:21:10.720Z",
+        "modification_date": "2017-05-15T15:21:10.720Z",
+        "name": "Black leg description",
+        "description": "",
+        "voice_label": 185
+    }
+},
+{
+    "model": "service_development.voiceservicesubelement",
+    "pk": 195,
+    "fields": {
+        "service": 4,
+        "creation_date": "2017-05-15T15:22:51.837Z",
+        "modification_date": "2017-05-15T15:22:51.837Z",
+        "name": "Anthrax treatment (goat)",
+        "description": "",
+        "voice_label": 146
+    }
+},
+{
+    "model": "service_development.voiceservicesubelement",
+    "pk": 196,
+    "fields": {
+        "service": 4,
+        "creation_date": "2017-05-15T15:23:17.932Z",
+        "modification_date": "2017-05-15T15:23:17.932Z",
+        "name": "Anthrax description (goat)",
+        "description": "",
+        "voice_label": 145
+    }
+},
+{
+    "model": "service_development.voiceservicesubelement",
+    "pk": 197,
+    "fields": {
+        "service": 4,
+        "creation_date": "2017-05-15T15:33:31.789Z",
+        "modification_date": "2017-05-15T15:33:31.789Z",
+        "name": "Lumps signs (sheep)",
+        "description": "",
+        "voice_label": 172
+    }
+},
+{
+    "model": "service_development.voiceservicesubelement",
+    "pk": 198,
+    "fields": {
+        "service": 4,
+        "creation_date": "2017-05-15T15:33:31.799Z",
+        "modification_date": "2017-05-15T15:33:31.799Z",
+        "name": "Lumps signs (sheep) - Yes",
+        "description": "",
+        "voice_label": 21
+    }
+},
+{
+    "model": "service_development.voiceservicesubelement",
+    "pk": 199,
+    "fields": {
+        "service": 4,
+        "creation_date": "2017-05-15T15:33:31.800Z",
+        "modification_date": "2017-05-15T15:33:31.800Z",
+        "name": "Lumps signs (sheep) - No",
+        "description": "",
+        "voice_label": 22
+    }
+},
+{
+    "model": "service_development.voiceservicesubelement",
+    "pk": 200,
+    "fields": {
+        "service": 4,
+        "creation_date": "2017-05-15T15:34:17.952Z",
+        "modification_date": "2017-05-15T15:34:17.952Z",
+        "name": "Lameness signs (sheep)",
+        "description": "",
+        "voice_label": 171
+    }
+},
+{
+    "model": "service_development.voiceservicesubelement",
+    "pk": 201,
+    "fields": {
+        "service": 4,
+        "creation_date": "2017-05-15T15:34:18.024Z",
+        "modification_date": "2017-05-15T15:34:18.024Z",
+        "name": "Lameness signs (sheep) - Yes",
+        "description": "",
+        "voice_label": 21
+    }
+},
+{
+    "model": "service_development.voiceservicesubelement",
+    "pk": 202,
+    "fields": {
+        "service": 4,
+        "creation_date": "2017-05-15T15:34:18.025Z",
+        "modification_date": "2017-05-15T15:34:18.025Z",
+        "name": "Lameness signs (sheep) - No",
+        "description": "",
+        "voice_label": 22
+    }
+},
+{
+    "model": "service_development.voiceservicesubelement",
+    "pk": 203,
+    "fields": {
+        "service": 4,
+        "creation_date": "2017-05-15T15:35:02.324Z",
+        "modification_date": "2017-05-15T15:35:02.324Z",
+        "name": "Diarrhea signs (sheep)",
+        "description": "",
+        "voice_label": 170
+    }
+},
+{
+    "model": "service_development.voiceservicesubelement",
+    "pk": 204,
+    "fields": {
+        "service": 4,
+        "creation_date": "2017-05-15T15:35:02.422Z",
+        "modification_date": "2017-05-15T15:35:02.422Z",
+        "name": "Diarrhea signs (sheep) - Yes",
+        "description": "",
+        "voice_label": 21
+    }
+},
+{
+    "model": "service_development.voiceservicesubelement",
+    "pk": 205,
+    "fields": {
+        "service": 4,
+        "creation_date": "2017-05-15T15:35:02.423Z",
+        "modification_date": "2017-05-15T15:35:02.424Z",
+        "name": "Diarrhea signs (sheep) - No",
+        "description": "",
+        "voice_label": 22
+    }
+},
+{
+    "model": "service_development.voiceservicesubelement",
+    "pk": 206,
+    "fields": {
+        "service": 4,
+        "creation_date": "2017-05-15T15:35:39.852Z",
+        "modification_date": "2017-05-15T15:35:39.852Z",
+        "name": "Weight loss signs (sheep)",
+        "description": "",
+        "voice_label": 169
+    }
+},
+{
+    "model": "service_development.voiceservicesubelement",
+    "pk": 207,
+    "fields": {
+        "service": 4,
+        "creation_date": "2017-05-15T15:35:39.954Z",
+        "modification_date": "2017-05-15T15:35:39.954Z",
+        "name": "Weight loss signs (sheep) - Yes",
+        "description": "",
+        "voice_label": 21
+    }
+},
+{
+    "model": "service_development.voiceservicesubelement",
+    "pk": 208,
+    "fields": {
+        "service": 4,
+        "creation_date": "2017-05-15T15:35:39.955Z",
+        "modification_date": "2017-05-15T15:35:39.955Z",
+        "name": "Weight loss signs (sheep) - No",
+        "description": "",
+        "voice_label": 22
+    }
+},
+{
+    "model": "service_development.voiceservicesubelement",
+    "pk": 209,
+    "fields": {
+        "service": 4,
+        "creation_date": "2017-05-15T15:36:34.496Z",
+        "modification_date": "2017-05-15T15:36:34.496Z",
+        "name": "Lethargic and trembling signs (goat)",
+        "description": "",
+        "voice_label": 176
+    }
+},
+{
+    "model": "service_development.voiceservicesubelement",
+    "pk": 210,
+    "fields": {
+        "service": 4,
+        "creation_date": "2017-05-15T15:36:34.546Z",
+        "modification_date": "2017-05-15T15:36:34.546Z",
+        "name": "Lethargic and trembling signs (goat) - Yes",
+        "description": "",
+        "voice_label": 21
+    }
+},
+{
+    "model": "service_development.voiceservicesubelement",
+    "pk": 211,
+    "fields": {
+        "service": 4,
+        "creation_date": "2017-05-15T15:36:34.547Z",
+        "modification_date": "2017-05-15T15:36:34.547Z",
+        "name": "Lethargic and trembling signs (goat) - No",
+        "description": "",
+        "voice_label": 22
+    }
+},
+{
+    "model": "service_development.voiceservicesubelement",
+    "pk": 212,
+    "fields": {
+        "service": 4,
+        "creation_date": "2017-05-15T15:37:22.626Z",
+        "modification_date": "2017-05-15T15:37:22.626Z",
+        "name": "Swollen signs (goat)",
+        "description": "",
+        "voice_label": 175
+    }
+},
+{
+    "model": "service_development.voiceservicesubelement",
+    "pk": 213,
+    "fields": {
+        "service": 4,
+        "creation_date": "2017-05-15T15:37:22.651Z",
+        "modification_date": "2017-05-15T15:37:22.651Z",
+        "name": "Swollen signs (goat) - Yes",
+        "description": "",
+        "voice_label": 21
+    }
+},
+{
+    "model": "service_development.voiceservicesubelement",
+    "pk": 214,
+    "fields": {
+        "service": 4,
+        "creation_date": "2017-05-15T15:37:22.652Z",
+        "modification_date": "2017-05-15T15:37:22.652Z",
+        "name": "Swollen signs (goat) - No",
+        "description": "",
+        "voice_label": 22
+    }
+},
+{
+    "model": "service_development.voiceservicesubelement",
+    "pk": 215,
+    "fields": {
+        "service": 4,
+        "creation_date": "2017-05-15T15:38:05.118Z",
+        "modification_date": "2017-05-15T15:38:05.118Z",
+        "name": "Oral lesions signs (goat)",
+        "description": "",
+        "voice_label": 174
+    }
+},
+{
+    "model": "service_development.voiceservicesubelement",
+    "pk": 216,
+    "fields": {
+        "service": 4,
+        "creation_date": "2017-05-15T15:38:05.125Z",
+        "modification_date": "2017-05-15T15:38:05.125Z",
+        "name": "Oral lesions signs (goat) - Yes",
+        "description": "",
+        "voice_label": 21
+    }
+},
+{
+    "model": "service_development.voiceservicesubelement",
+    "pk": 217,
+    "fields": {
+        "service": 4,
+        "creation_date": "2017-05-15T15:38:05.127Z",
+        "modification_date": "2017-05-15T15:38:05.127Z",
+        "name": "Oral lesions signs (goat) - No",
+        "description": "",
+        "voice_label": 22
+    }
+},
+{
+    "model": "service_development.voiceservicesubelement",
+    "pk": 218,
+    "fields": {
+        "service": 4,
+        "creation_date": "2017-05-15T15:38:47.964Z",
+        "modification_date": "2017-05-15T15:38:47.964Z",
+        "name": "Reluctant move signs (goat)",
+        "description": "",
+        "voice_label": 173
+    }
+},
+{
+    "model": "service_development.voiceservicesubelement",
+    "pk": 219,
+    "fields": {
+        "service": 4,
+        "creation_date": "2017-05-15T15:38:48.029Z",
+        "modification_date": "2017-05-15T15:38:48.029Z",
+        "name": "Reluctant move signs (goat) - Yes",
+        "description": "",
+        "voice_label": 21
+    }
+},
+{
+    "model": "service_development.voiceservicesubelement",
+    "pk": 220,
+    "fields": {
+        "service": 4,
+        "creation_date": "2017-05-15T15:38:48.030Z",
+        "modification_date": "2017-05-15T15:38:48.030Z",
+        "name": "Reluctant move signs (goat) - Yes",
+        "description": "",
+        "voice_label": 22
+    }
+},
+{
+    "model": "service_development.voiceservicesubelement",
+    "pk": 221,
+    "fields": {
+        "service": 4,
+        "creation_date": "2017-05-15T15:40:19.017Z",
+        "modification_date": "2017-05-15T15:40:19.017Z",
+        "name": "Sheep",
+        "description": "",
+        "voice_label": 188
+    }
+},
+{
+    "model": "service_development.voiceservicesubelement",
+    "pk": 222,
+    "fields": {
+        "service": 4,
+        "creation_date": "2017-05-15T15:40:19.153Z",
+        "modification_date": "2017-05-15T15:40:19.153Z",
+        "name": "Goat",
+        "description": "",
+        "voice_label": 187
+    }
+},
+{
+    "model": "service_development.voiceservicesubelement",
+    "pk": 223,
+    "fields": {
+        "service": 4,
+        "creation_date": "2017-05-17T15:34:58.416Z",
+        "modification_date": "2017-05-17T15:34:58.416Z",
+        "name": "Koulikoro",
+        "description": "",
+        "voice_label": 191
+    }
+},
+{
+    "model": "service_development.voiceservicesubelement",
+    "pk": 224,
+    "fields": {
+        "service": 4,
+        "creation_date": "2017-05-17T15:34:58.418Z",
+        "modification_date": "2017-05-17T15:34:58.418Z",
+        "name": "Bamako",
+        "description": "",
+        "voice_label": 192
+    }
+},
+{
+    "model": "service_development.voiceservicesubelement",
+    "pk": 225,
+    "fields": {
+        "service": 4,
+        "creation_date": "2017-05-17T15:34:58.419Z",
+        "modification_date": "2017-05-17T15:34:58.419Z",
+        "name": "Mopti",
+        "description": "",
+        "voice_label": 193
+    }
+},
+{
+    "model": "service_development.voiceservicesubelement",
+    "pk": 226,
+    "fields": {
+        "service": 4,
+        "creation_date": "2017-05-17T15:34:58.420Z",
+        "modification_date": "2017-05-17T15:34:58.420Z",
+        "name": "Segou",
+        "description": "",
+        "voice_label": 194
+    }
+},
+{
+    "model": "service_development.voiceservicesubelement",
+    "pk": 227,
+    "fields": {
+        "service": 4,
+        "creation_date": "2017-05-17T15:52:29.720Z",
+        "modification_date": "2017-05-17T15:52:29.720Z",
+        "name": "Dr Tangara",
+        "description": "",
+        "voice_label": 195
+    }
+},
+{
+    "model": "service_development.voiceservicesubelement",
+    "pk": 228,
+    "fields": {
+        "service": 4,
+        "creation_date": "2017-05-17T15:52:29.726Z",
+        "modification_date": "2017-05-17T15:52:29.726Z",
+        "name": "Dr Charles",
+        "description": "",
+        "voice_label": 196
+    }
+},
+{
+    "model": "service_development.voiceservicesubelement",
+    "pk": 229,
+    "fields": {
+        "service": 4,
+        "creation_date": "2017-05-25T19:32:08.334Z",
+        "modification_date": "2017-05-25T19:32:08.334Z",
+        "name": "Chosen language",
+        "description": "",
+        "voice_label": 197
+    }
+},
+{
+    "model": "service_development.voiceservicesubelement",
+    "pk": 230,
+    "fields": {
+        "service": 4,
+        "creation_date": "2017-05-25T19:32:08.481Z",
+        "modification_date": "2017-05-25T19:32:08.481Z",
+        "name": "chosen language yes",
+        "description": "",
+        "voice_label": 21
+    }
+},
+{
+    "model": "service_development.voiceservicesubelement",
+    "pk": 231,
+    "fields": {
+        "service": 4,
+        "creation_date": "2017-05-25T19:32:08.489Z",
+        "modification_date": "2017-05-25T19:32:08.489Z",
+        "name": "chosen language no",
+        "description": "",
+        "voice_label": 22
+    }
+},
+{
+    "model": "service_development.voiceserviceelement",
+    "pk": 6,
+    "fields": {}
+},
+{
+    "model": "service_development.voiceserviceelement",
+    "pk": 124,
+    "fields": {}
+},
+{
+    "model": "service_development.voiceserviceelement",
+    "pk": 127,
+    "fields": {}
+},
+{
+    "model": "service_development.voiceserviceelement",
+    "pk": 130,
+    "fields": {}
+},
+{
+    "model": "service_development.voiceserviceelement",
+    "pk": 131,
+    "fields": {}
+},
+{
+    "model": "service_development.voiceserviceelement",
+    "pk": 134,
+    "fields": {}
+},
+{
+    "model": "service_development.voiceserviceelement",
+    "pk": 137,
+    "fields": {}
+},
+{
+    "model": "service_development.voiceserviceelement",
+    "pk": 140,
+    "fields": {}
+},
+{
+    "model": "service_development.voiceserviceelement",
+    "pk": 143,
+    "fields": {}
+},
+{
+    "model": "service_development.voiceserviceelement",
+    "pk": 146,
+    "fields": {}
+},
+{
+    "model": "service_development.voiceserviceelement",
+    "pk": 149,
+    "fields": {}
+},
+{
+    "model": "service_development.voiceserviceelement",
+    "pk": 152,
+    "fields": {}
+},
+{
+    "model": "service_development.voiceserviceelement",
+    "pk": 155,
+    "fields": {}
+},
+{
+    "model": "service_development.voiceserviceelement",
+    "pk": 156,
+    "fields": {}
+},
+{
+    "model": "service_development.voiceserviceelement",
+    "pk": 157,
+    "fields": {}
+},
+{
+    "model": "service_development.voiceserviceelement",
+    "pk": 158,
+    "fields": {}
+},
+{
+    "model": "service_development.voiceserviceelement",
+    "pk": 159,
+    "fields": {}
+},
+{
+    "model": "service_development.voiceserviceelement",
+    "pk": 160,
+    "fields": {}
+},
+{
+    "model": "service_development.voiceserviceelement",
+    "pk": 161,
+    "fields": {}
+},
+{
+    "model": "service_development.voiceserviceelement",
+    "pk": 162,
+    "fields": {}
+},
+{
+    "model": "service_development.voiceserviceelement",
+    "pk": 163,
+    "fields": {}
+},
+{
+    "model": "service_development.voiceserviceelement",
+    "pk": 164,
+    "fields": {}
+},
+{
+    "model": "service_development.voiceserviceelement",
+    "pk": 165,
+    "fields": {}
+},
+{
+    "model": "service_development.voiceserviceelement",
+    "pk": 166,
+    "fields": {}
+},
+{
+    "model": "service_development.voiceserviceelement",
+    "pk": 167,
+    "fields": {}
+},
+{
+    "model": "service_development.voiceserviceelement",
+    "pk": 168,
+    "fields": {}
+},
+{
+    "model": "service_development.voiceserviceelement",
+    "pk": 169,
+    "fields": {}
+},
+{
+    "model": "service_development.voiceserviceelement",
+    "pk": 175,
+    "fields": {}
+},
+{
+    "model": "service_development.voiceserviceelement",
+    "pk": 178,
+    "fields": {}
+},
+{
+    "model": "service_development.voiceserviceelement",
+    "pk": 179,
+    "fields": {}
+},
+{
+    "model": "service_development.voiceserviceelement",
+    "pk": 180,
+    "fields": {}
+},
+{
+    "model": "service_development.voiceserviceelement",
+    "pk": 185,
+    "fields": {}
+},
+{
+    "model": "service_development.voiceserviceelement",
+    "pk": 186,
+    "fields": {}
+},
+{
+    "model": "service_development.voiceserviceelement",
+    "pk": 187,
+    "fields": {}
+},
+{
+    "model": "service_development.voiceserviceelement",
+    "pk": 188,
+    "fields": {}
+},
+{
+    "model": "service_development.voiceserviceelement",
+    "pk": 189,
+    "fields": {}
+},
+{
+    "model": "service_development.voiceserviceelement",
+    "pk": 190,
+    "fields": {}
+},
+{
+    "model": "service_development.voiceserviceelement",
+    "pk": 191,
+    "fields": {}
+},
+{
+    "model": "service_development.voiceserviceelement",
+    "pk": 192,
+    "fields": {}
+},
+{
+    "model": "service_development.voiceserviceelement",
+    "pk": 193,
+    "fields": {}
+},
+{
+    "model": "service_development.voiceserviceelement",
+    "pk": 194,
+    "fields": {}
+},
+{
+    "model": "service_development.voiceserviceelement",
+    "pk": 195,
+    "fields": {}
+},
+{
+    "model": "service_development.voiceserviceelement",
+    "pk": 196,
+    "fields": {}
+},
+{
+    "model": "service_development.voiceserviceelement",
+    "pk": 197,
+    "fields": {}
+},
+{
+    "model": "service_development.voiceserviceelement",
+    "pk": 200,
+    "fields": {}
+},
+{
+    "model": "service_development.voiceserviceelement",
+    "pk": 203,
+    "fields": {}
+},
+{
+    "model": "service_development.voiceserviceelement",
+    "pk": 206,
+    "fields": {}
+},
+{
+    "model": "service_development.voiceserviceelement",
+    "pk": 209,
+    "fields": {}
+},
+{
+    "model": "service_development.voiceserviceelement",
+    "pk": 212,
+    "fields": {}
+},
+{
+    "model": "service_development.voiceserviceelement",
+    "pk": 215,
+    "fields": {}
+},
+{
+    "model": "service_development.voiceserviceelement",
+    "pk": 218,
+    "fields": {}
+},
+{
+    "model": "service_development.voiceserviceelement",
+    "pk": 229,
+    "fields": {}
+},
+{
+    "model": "service_development.voiceservice",
+    "pk": 4,
+    "fields": {
+        "name": "MobileVet",
+        "description": "MobileVet",
+        "creation_date": "2017-05-05T00:20:22.403Z",
+        "modification_date": "2017-05-15T13:20:39.916Z",
+        "active": true,
+        "_start_element": 130,
+        "requires_registration": false,
+        "supported_languages": [
+            2,
+            3
+        ]
+    }
+},
+{
+    "model": "service_development.region",
+    "pk": 4,
+    "fields": {
+        "name": "Sikasso",
+        "description": ""
+    }
+},
+{
+    "model": "service_development.region",
+    "pk": 5,
+    "fields": {
+        "name": "Kayes",
+        "description": ""
+    }
+},
+{
+    "model": "service_development.region",
+    "pk": 6,
+    "fields": {
+        "name": "Koulikoro",
+        "description": ""
+    }
+},
+{
+    "model": "service_development.region",
+    "pk": 7,
+    "fields": {
+        "name": "Bamako",
+        "description": ""
+    }
+},
+{
+    "model": "service_development.region",
+    "pk": 8,
+    "fields": {
+        "name": "Mopti",
+        "description": ""
+    }
+},
+{
+    "model": "service_development.region",
+    "pk": 9,
+    "fields": {
+        "name": "Segou",
+        "description": ""
+    }
+},
+{
+    "model": "service_development.regionselection",
+    "pk": 124,
+    "fields": {
+        "_redirect_url": 180
+    }
+},
+{
+    "model": "service_development.regionselectionoption",
+    "pk": 125,
+    "fields": {
+        "parent": 124,
+        "options": 4
+    }
+},
+{
+    "model": "service_development.regionselectionoption",
+    "pk": 126,
+    "fields": {
+        "parent": 124,
+        "options": 5
+    }
+},
+{
+    "model": "service_development.regionselectionoption",
+    "pk": 223,
+    "fields": {
+        "parent": 124,
+        "options": 6
+    }
+},
+{
+    "model": "service_development.regionselectionoption",
+    "pk": 224,
+    "fields": {
+        "parent": 124,
+        "options": 7
+    }
+},
+{
+    "model": "service_development.regionselectionoption",
+    "pk": 225,
+    "fields": {
+        "parent": 124,
+        "options": 8
+    }
+},
+{
+    "model": "service_development.regionselectionoption",
+    "pk": 226,
+    "fields": {
+        "parent": 124,
+        "options": 9
+    }
+},
+{
+    "model": "service_development.kasadakauser",
+    "pk": 64,
+    "fields": {
+        "caller_id": "64512345",
+        "first_name": "",
+        "last_name": "",
+        "creation_date": "2017-05-25T20:53:03.403Z",
+        "modification_date": "2017-05-26T03:39:54.438Z",
+        "language": 3,
+        "service": 4,
+        "region": 9
+    }
+},
+{
+    "model": "service_development.kasadakauser",
+    "pk": 65,
+    "fields": {
+        "caller_id": "64512346",
+        "first_name": "",
+        "last_name": "",
+        "creation_date": "2017-05-25T21:55:15.498Z",
+        "modification_date": "2017-05-26T03:30:01.318Z",
+        "language": 3,
+        "service": 4,
+        "region": 5
+    }
+},
+{
+    "model": "service_development.callsession",
+    "pk": 21,
+    "fields": {
+        "start": "2017-05-25T20:46:30.835Z",
+        "end": null,
+        "user": null,
+        "caller_id": "64512345",
+        "service": 4,
+        "_language": null,
+        "season": null,
+        "animal": null
+    }
+},
+{
+    "model": "service_development.callsession",
+    "pk": 22,
+    "fields": {
+        "start": "2017-05-25T20:47:49.190Z",
+        "end": null,
+        "user": null,
+        "caller_id": "64512345",
+        "service": 4,
+        "_language": null,
+        "season": null,
+        "animal": null
+    }
+},
+{
+    "model": "service_development.callsession",
+    "pk": 23,
+    "fields": {
+        "start": "2017-05-25T20:49:29.374Z",
+        "end": null,
+        "user": null,
+        "caller_id": "64512345",
+        "service": 4,
+        "_language": null,
+        "season": null,
+        "animal": null
+    }
+},
+{
+    "model": "service_development.callsession",
+    "pk": 24,
+    "fields": {
+        "start": "2017-05-25T20:49:56.538Z",
+        "end": null,
+        "user": null,
+        "caller_id": "64512345",
+        "service": 4,
+        "_language": null,
+        "season": null,
+        "animal": null
+    }
+},
+{
+    "model": "service_development.callsession",
+    "pk": 25,
+    "fields": {
+        "start": "2017-05-25T20:51:44.054Z",
+        "end": "2017-05-25T20:53:04.822Z",
+        "user": 64,
+        "caller_id": "64512345",
+        "service": 4,
+        "_language": 2,
+        "season": null,
+        "animal": null
+    }
+},
+{
+    "model": "service_development.callsession",
+    "pk": 26,
+    "fields": {
+        "start": "2017-05-25T20:53:18.901Z",
+        "end": "2017-05-25T20:53:19.875Z",
+        "user": 64,
+        "caller_id": "64512345",
+        "service": 4,
+        "_language": 2,
+        "season": null,
+        "animal": null
+    }
+},
+{
+    "model": "service_development.callsession",
+    "pk": 27,
+    "fields": {
+        "start": "2017-05-25T20:54:23.204Z",
+        "end": "2017-05-25T20:54:25.089Z",
+        "user": 64,
+        "caller_id": "64512345",
+        "service": 4,
+        "_language": 2,
+        "season": null,
+        "animal": null
+    }
+},
+{
+    "model": "service_development.callsession",
+    "pk": 28,
+    "fields": {
+        "start": "2017-05-25T21:02:30.678Z",
+        "end": null,
+        "user": null,
+        "caller_id": "64512346",
+        "service": 4,
+        "_language": null,
+        "season": null,
+        "animal": null
+    }
+},
+{
+    "model": "service_development.callsession",
+    "pk": 29,
+    "fields": {
+        "start": "2017-05-25T21:25:51.005Z",
+        "end": null,
+        "user": null,
+        "caller_id": "64512346",
+        "service": 4,
+        "_language": null,
+        "season": null,
+        "animal": null
+    }
+},
+{
+    "model": "service_development.callsession",
+    "pk": 30,
+    "fields": {
+        "start": "2017-05-25T21:54:49.825Z",
+        "end": "2017-05-25T21:55:16.976Z",
+        "user": 65,
+        "caller_id": "64512346",
+        "service": 4,
+        "_language": 2,
+        "season": null,
+        "animal": null
+    }
+},
+{
+    "model": "service_development.callsession",
+    "pk": 31,
+    "fields": {
+        "start": "2017-05-25T21:55:29.467Z",
+        "end": "2017-05-25T21:57:34.112Z",
+        "user": 65,
+        "caller_id": "64512346",
+        "service": 4,
+        "_language": 2,
+        "season": null,
+        "animal": null
+    }
+},
+{
+    "model": "service_development.callsession",
+    "pk": 32,
+    "fields": {
+        "start": "2017-05-25T22:00:48.766Z",
+        "end": "2017-05-25T22:01:11.345Z",
+        "user": 65,
+        "caller_id": "64512346",
+        "service": 4,
+        "_language": 3,
+        "season": null,
+        "animal": null
+    }
+},
+{
+    "model": "service_development.callsession",
+    "pk": 33,
+    "fields": {
+        "start": "2017-05-25T22:04:46.821Z",
+        "end": null,
+        "user": null,
+        "caller_id": "64512346",
+        "service": 4,
+        "_language": null,
+        "season": null,
+        "animal": null
+    }
+},
+{
+    "model": "service_development.callsession",
+    "pk": 34,
+    "fields": {
+        "start": "2017-05-25T23:23:22.568Z",
+        "end": null,
+        "user": null,
+        "caller_id": "64512346",
+        "service": 4,
+        "_language": null,
+        "season": null,
+        "animal": null
+    }
+},
+{
+    "model": "service_development.callsession",
+    "pk": 35,
+    "fields": {
+        "start": "2017-05-25T23:25:42.927Z",
+        "end": null,
+        "user": null,
+        "caller_id": "64512346",
+        "service": 4,
+        "_language": null,
+        "season": null,
+        "animal": null
+    }
+},
+{
+    "model": "service_development.callsession",
+    "pk": 36,
+    "fields": {
+        "start": "2017-05-26T02:12:12.397Z",
+        "end": "2017-05-26T02:58:59.088Z",
+        "user": 65,
+        "caller_id": "64512346",
+        "service": 4,
+        "_language": 2,
+        "season": "dry",
+        "animal": "7"
+    }
+},
+{
+    "model": "service_development.callsession",
+    "pk": 37,
+    "fields": {
+        "start": "2017-05-26T03:17:51.934Z",
+        "end": null,
+        "user": null,
+        "caller_id": "64512347",
+        "service": 4,
+        "_language": null,
+        "season": null,
+        "animal": null
+    }
+},
+{
+    "model": "service_development.callsession",
+    "pk": 38,
+    "fields": {
+        "start": "2017-05-26T03:18:51.713Z",
+        "end": "2017-05-26T03:34:18.222Z",
+        "user": 65,
+        "caller_id": "64512346",
+        "service": 4,
+        "_language": 3,
+        "season": "dry",
+        "animal": "6"
+    }
+},
+{
+    "model": "service_development.callsession",
+    "pk": 39,
+    "fields": {
+        "start": "2017-05-26T03:32:46.045Z",
+        "end": "2017-05-26T03:40:05.724Z",
+        "user": 64,
+        "caller_id": "64512345",
+        "service": 4,
+        "_language": 3,
+        "season": "dry",
+        "animal": null
+    }
+},
+{
+    "model": "service_development.callsessionstep",
+    "pk": 309,
+    "fields": {
+        "time": "2017-05-25T20:53:04.934Z",
+        "session": 25,
+        "_visited_element": 130
+    }
+},
+{
+    "model": "service_development.callsessionstep",
+    "pk": 310,
+    "fields": {
+        "time": "2017-05-25T20:53:20.016Z",
+        "session": 26,
+        "_visited_element": 130
+    }
+},
+{
+    "model": "service_development.callsessionstep",
+    "pk": 311,
+    "fields": {
+        "time": "2017-05-25T20:54:25.377Z",
+        "session": 27,
+        "_visited_element": 130
+    }
+},
+{
+    "model": "service_development.callsessionstep",
+    "pk": 312,
+    "fields": {
+        "time": "2017-05-25T21:55:17.078Z",
+        "session": 30,
+        "_visited_element": 130
+    }
+},
+{
+    "model": "service_development.callsessionstep",
+    "pk": 313,
+    "fields": {
+        "time": "2017-05-25T21:57:34.196Z",
+        "session": 31,
+        "_visited_element": 130
+    }
+},
+{
+    "model": "service_development.callsessionstep",
+    "pk": 314,
+    "fields": {
+        "time": "2017-05-25T22:01:11.475Z",
+        "session": 32,
+        "_visited_element": 130
+    }
+},
+{
+    "model": "service_development.callsessionstep",
+    "pk": 315,
+    "fields": {
+        "time": "2017-05-26T02:14:44.274Z",
+        "session": 36,
+        "_visited_element": 130
+    }
+},
+{
+    "model": "service_development.callsessionstep",
+    "pk": 316,
+    "fields": {
+        "time": "2017-05-26T02:15:02.436Z",
+        "session": 36,
+        "_visited_element": 130
+    }
+},
+{
+    "model": "service_development.callsessionstep",
+    "pk": 317,
+    "fields": {
+        "time": "2017-05-26T02:15:28.059Z",
+        "session": 36,
+        "_visited_element": 127
+    }
+},
+{
+    "model": "service_development.callsessionstep",
+    "pk": 318,
+    "fields": {
+        "time": "2017-05-26T02:16:26.963Z",
+        "session": 36,
+        "_visited_element": 218
+    }
+},
+{
+    "model": "service_development.callsessionstep",
+    "pk": 319,
+    "fields": {
+        "time": "2017-05-26T02:18:07.975Z",
+        "session": 36,
+        "_visited_element": 215
+    }
+},
+{
+    "model": "service_development.callsessionstep",
+    "pk": 320,
+    "fields": {
+        "time": "2017-05-26T02:19:03.442Z",
+        "session": 36,
+        "_visited_element": 212
+    }
+},
+{
+    "model": "service_development.callsessionstep",
+    "pk": 321,
+    "fields": {
+        "time": "2017-05-26T02:19:16.447Z",
+        "session": 36,
+        "_visited_element": 212
+    }
+},
+{
+    "model": "service_development.callsessionstep",
+    "pk": 322,
+    "fields": {
+        "time": "2017-05-26T02:19:55.804Z",
+        "session": 36,
+        "_visited_element": 209
+    }
+},
+{
+    "model": "service_development.callsessionstep",
+    "pk": 323,
+    "fields": {
+        "time": "2017-05-26T02:21:00.100Z",
+        "session": 36,
+        "_visited_element": 155
+    }
+},
+{
+    "model": "service_development.callsessionstep",
+    "pk": 324,
+    "fields": {
+        "time": "2017-05-26T02:21:08.836Z",
+        "session": 36,
+        "_visited_element": 194
+    }
+},
+{
+    "model": "service_development.callsessionstep",
+    "pk": 325,
+    "fields": {
+        "time": "2017-05-26T02:21:15.617Z",
+        "session": 36,
+        "_visited_element": 193
+    }
+},
+{
+    "model": "service_development.callsessionstep",
+    "pk": 326,
+    "fields": {
+        "time": "2017-05-26T02:21:20.387Z",
+        "session": 36,
+        "_visited_element": 6
+    }
+},
+{
+    "model": "service_development.callsessionstep",
+    "pk": 327,
+    "fields": {
+        "time": "2017-05-26T02:21:34.532Z",
+        "session": 36,
+        "_visited_element": 209
+    }
+},
+{
+    "model": "service_development.callsessionstep",
+    "pk": 328,
+    "fields": {
+        "time": "2017-05-26T02:22:46.207Z",
+        "session": 36,
+        "_visited_element": 155
+    }
+},
+{
+    "model": "service_development.callsessionstep",
+    "pk": 329,
+    "fields": {
+        "time": "2017-05-26T02:22:52.211Z",
+        "session": 36,
+        "_visited_element": 168
+    }
+},
+{
+    "model": "service_development.callsessionstep",
+    "pk": 330,
+    "fields": {
+        "time": "2017-05-26T02:23:27.361Z",
+        "session": 36,
+        "_visited_element": 124
+    }
+},
+{
+    "model": "service_development.callsessionstep",
+    "pk": 331,
+    "fields": {
+        "time": "2017-05-26T02:38:24.526Z",
+        "session": 36,
+        "_visited_element": 124
+    }
+},
+{
+    "model": "service_development.callsessionstep",
+    "pk": 332,
+    "fields": {
+        "time": "2017-05-26T02:39:21.013Z",
+        "session": 36,
+        "_visited_element": 124
+    }
+},
+{
+    "model": "service_development.callsessionstep",
+    "pk": 333,
+    "fields": {
+        "time": "2017-05-26T02:40:29.427Z",
+        "session": 36,
+        "_visited_element": 124
+    }
+},
+{
+    "model": "service_development.callsessionstep",
+    "pk": 334,
+    "fields": {
+        "time": "2017-05-26T02:41:30.662Z",
+        "session": 36,
+        "_visited_element": 124
+    }
+},
+{
+    "model": "service_development.callsessionstep",
+    "pk": 335,
+    "fields": {
+        "time": "2017-05-26T02:43:02.226Z",
+        "session": 36,
+        "_visited_element": 124
+    }
+},
+{
+    "model": "service_development.callsessionstep",
+    "pk": 336,
+    "fields": {
+        "time": "2017-05-26T02:44:15.978Z",
+        "session": 36,
+        "_visited_element": 124
+    }
+},
+{
+    "model": "service_development.callsessionstep",
+    "pk": 337,
+    "fields": {
+        "time": "2017-05-26T02:45:09.049Z",
+        "session": 36,
+        "_visited_element": 124
+    }
+},
+{
+    "model": "service_development.callsessionstep",
+    "pk": 338,
+    "fields": {
+        "time": "2017-05-26T02:46:01.962Z",
+        "session": 36,
+        "_visited_element": 180
+    }
+},
+{
+    "model": "service_development.callsessionstep",
+    "pk": 339,
+    "fields": {
+        "time": "2017-05-26T02:50:59.177Z",
+        "session": 36,
+        "_visited_element": 180
+    }
+},
+{
+    "model": "service_development.callsessionstep",
+    "pk": 340,
+    "fields": {
+        "time": "2017-05-26T02:53:30.598Z",
+        "session": 36,
+        "_visited_element": 175
+    }
+},
+{
+    "model": "service_development.callsessionstep",
+    "pk": 341,
+    "fields": {
+        "time": "2017-05-26T02:54:16.237Z",
+        "session": 36,
+        "_visited_element": 179
+    }
+},
+{
+    "model": "service_development.callsessionstep",
+    "pk": 342,
+    "fields": {
+        "time": "2017-05-26T02:54:23.759Z",
+        "session": 36,
+        "_visited_element": 178
+    }
+},
+{
+    "model": "service_development.callsessionstep",
+    "pk": 343,
+    "fields": {
+        "time": "2017-05-26T02:54:35.520Z",
+        "session": 36,
+        "_visited_element": 6
+    }
+},
+{
+    "model": "service_development.callsessionstep",
+    "pk": 344,
+    "fields": {
+        "time": "2017-05-26T02:55:46.810Z",
+        "session": 36,
+        "_visited_element": 168
+    }
+},
+{
+    "model": "service_development.callsessionstep",
+    "pk": 345,
+    "fields": {
+        "time": "2017-05-26T02:55:56.328Z",
+        "session": 36,
+        "_visited_element": 124
+    }
+},
+{
+    "model": "service_development.callsessionstep",
+    "pk": 346,
+    "fields": {
+        "time": "2017-05-26T02:57:12.656Z",
+        "session": 36,
+        "_visited_element": 124
+    }
+},
+{
+    "model": "service_development.callsessionstep",
+    "pk": 347,
+    "fields": {
+        "time": "2017-05-26T02:58:59.270Z",
+        "session": 36,
+        "_visited_element": 180
+    }
+},
+{
+    "model": "service_development.callsessionstep",
+    "pk": 348,
+    "fields": {
+        "time": "2017-05-26T03:19:48.703Z",
+        "session": 38,
+        "_visited_element": 130
+    }
+},
+{
+    "model": "service_development.callsessionstep",
+    "pk": 349,
+    "fields": {
+        "time": "2017-05-26T03:19:56.182Z",
+        "session": 38,
+        "_visited_element": 127
+    }
+},
+{
+    "model": "service_development.callsessionstep",
+    "pk": 350,
+    "fields": {
+        "time": "2017-05-26T03:20:21.877Z",
+        "session": 38,
+        "_visited_element": 206
+    }
+},
+{
+    "model": "service_development.callsessionstep",
+    "pk": 351,
+    "fields": {
+        "time": "2017-05-26T03:21:06.817Z",
+        "session": 38,
+        "_visited_element": 203
+    }
+},
+{
+    "model": "service_development.callsessionstep",
+    "pk": 352,
+    "fields": {
+        "time": "2017-05-26T03:24:17.696Z",
+        "session": 38,
+        "_visited_element": 200
+    }
+},
+{
+    "model": "service_development.callsessionstep",
+    "pk": 353,
+    "fields": {
+        "time": "2017-05-26T03:24:38.032Z",
+        "session": 38,
+        "_visited_element": 197
+    }
+},
+{
+    "model": "service_development.callsessionstep",
+    "pk": 354,
+    "fields": {
+        "time": "2017-05-26T03:25:33.663Z",
+        "session": 38,
+        "_visited_element": 197
+    }
+},
+{
+    "model": "service_development.callsessionstep",
+    "pk": 355,
+    "fields": {
+        "time": "2017-05-26T03:26:57.333Z",
+        "session": 38,
+        "_visited_element": 203
+    }
+},
+{
+    "model": "service_development.callsessionstep",
+    "pk": 356,
+    "fields": {
+        "time": "2017-05-26T03:27:29.280Z",
+        "session": 38,
+        "_visited_element": 200
+    }
+},
+{
+    "model": "service_development.callsessionstep",
+    "pk": 357,
+    "fields": {
+        "time": "2017-05-26T03:28:05.763Z",
+        "session": 38,
+        "_visited_element": 197
+    }
+},
+{
+    "model": "service_development.callsessionstep",
+    "pk": 358,
+    "fields": {
+        "time": "2017-05-26T03:28:45.072Z",
+        "session": 38,
+        "_visited_element": 155
+    }
+},
+{
+    "model": "service_development.callsessionstep",
+    "pk": 359,
+    "fields": {
+        "time": "2017-05-26T03:28:51.857Z",
+        "session": 38,
+        "_visited_element": 186
+    }
+},
+{
+    "model": "service_development.callsessionstep",
+    "pk": 360,
+    "fields": {
+        "time": "2017-05-26T03:28:57.581Z",
+        "session": 38,
+        "_visited_element": 185
+    }
+},
+{
+    "model": "service_development.callsessionstep",
+    "pk": 361,
+    "fields": {
+        "time": "2017-05-26T03:29:01.507Z",
+        "session": 38,
+        "_visited_element": 169
+    }
+},
+{
+    "model": "service_development.callsessionstep",
+    "pk": 362,
+    "fields": {
+        "time": "2017-05-26T03:29:05.811Z",
+        "session": 38,
+        "_visited_element": 124
+    }
+},
+{
+    "model": "service_development.callsessionstep",
+    "pk": 363,
+    "fields": {
+        "time": "2017-05-26T03:30:01.155Z",
+        "session": 38,
+        "_visited_element": 180
+    }
+},
+{
+    "model": "service_development.callsessionstep",
+    "pk": 364,
+    "fields": {
+        "time": "2017-05-26T03:30:42.808Z",
+        "session": 38,
+        "_visited_element": 175
+    }
+},
+{
+    "model": "service_development.callsessionstep",
+    "pk": 365,
+    "fields": {
+        "time": "2017-05-26T03:30:59.597Z",
+        "session": 38,
+        "_visited_element": 178
+    }
+},
+{
+    "model": "service_development.callsessionstep",
+    "pk": 366,
+    "fields": {
+        "time": "2017-05-26T03:31:05.688Z",
+        "session": 38,
+        "_visited_element": 6
+    }
+},
+{
+    "model": "service_development.callsessionstep",
+    "pk": 367,
+    "fields": {
+        "time": "2017-05-26T03:33:34.149Z",
+        "session": 39,
+        "_visited_element": 130
+    }
+},
+{
+    "model": "service_development.callsessionstep",
+    "pk": 368,
+    "fields": {
+        "time": "2017-05-26T03:34:18.316Z",
+        "session": 38,
+        "_visited_element": 124
+    }
+},
+{
+    "model": "service_development.callsessionstep",
+    "pk": 369,
+    "fields": {
+        "time": "2017-05-26T03:34:43.572Z",
+        "session": 39,
+        "_visited_element": 130
+    }
+},
+{
+    "model": "service_development.callsessionstep",
+    "pk": 370,
+    "fields": {
+        "time": "2017-05-26T03:34:49.462Z",
+        "session": 39,
+        "_visited_element": 127
+    }
+},
+{
+    "model": "service_development.callsessionstep",
+    "pk": 371,
+    "fields": {
+        "time": "2017-05-26T03:35:22.464Z",
+        "session": 39,
+        "_visited_element": 131
+    }
+},
+{
+    "model": "service_development.callsessionstep",
+    "pk": 372,
+    "fields": {
+        "time": "2017-05-26T03:37:39.738Z",
+        "session": 39,
+        "_visited_element": 134
+    }
+},
+{
+    "model": "service_development.callsessionstep",
+    "pk": 373,
+    "fields": {
+        "time": "2017-05-26T03:37:54.682Z",
+        "session": 39,
+        "_visited_element": 137
+    }
+},
+{
+    "model": "service_development.callsessionstep",
+    "pk": 374,
+    "fields": {
+        "time": "2017-05-26T03:38:06.521Z",
+        "session": 39,
+        "_visited_element": 140
+    }
+},
+{
+    "model": "service_development.callsessionstep",
+    "pk": 375,
+    "fields": {
+        "time": "2017-05-26T03:38:36.843Z",
+        "session": 39,
+        "_visited_element": 140
+    }
+},
+{
+    "model": "service_development.callsessionstep",
+    "pk": 376,
+    "fields": {
+        "time": "2017-05-26T03:39:03.030Z",
+        "session": 39,
+        "_visited_element": 155
+    }
+},
+{
+    "model": "service_development.callsessionstep",
+    "pk": 377,
+    "fields": {
+        "time": "2017-05-26T03:39:08.543Z",
+        "session": 39,
+        "_visited_element": 168
+    }
+},
+{
+    "model": "service_development.callsessionstep",
+    "pk": 378,
+    "fields": {
+        "time": "2017-05-26T03:39:14.172Z",
+        "session": 39,
+        "_visited_element": 124
+    }
+},
+{
+    "model": "service_development.callsessionstep",
+    "pk": 379,
+    "fields": {
+        "time": "2017-05-26T03:39:54.324Z",
+        "session": 39,
+        "_visited_element": 180
+    }
+},
+{
+    "model": "service_development.callsessionstep",
+    "pk": 380,
+    "fields": {
+        "time": "2017-05-26T03:40:05.862Z",
+        "session": 39,
+        "_visited_element": 175
+    }
+},
+{
+    "model": "service_development.callanswerlist",
+    "pk": 24,
+    "fields": {
+        "session": 36,
+        "answer": "1",
+        "element_id": "218",
+        "symptom_id": 17
+    }
+},
+{
+    "model": "service_development.callanswerlist",
+    "pk": 25,
+    "fields": {
+        "session": 36,
+        "answer": "2",
+        "element_id": "215",
+        "symptom_id": 18
+    }
+},
+{
+    "model": "service_development.callanswerlist",
+    "pk": 26,
+    "fields": {
+        "session": 36,
+        "answer": "2",
+        "element_id": "212",
+        "symptom_id": 19
+    }
+},
+{
+    "model": "service_development.callanswerlist",
+    "pk": 27,
+    "fields": {
+        "session": 36,
+        "answer": "1",
+        "element_id": "209",
+        "symptom_id": 20
+    }
+},
+{
+    "model": "service_development.callanswerlist",
+    "pk": 28,
+    "fields": {
+        "session": 36,
+        "answer": "1",
+        "element_id": "212",
+        "symptom_id": 19
+    }
+},
+{
+    "model": "service_development.callanswerlist",
+    "pk": 29,
+    "fields": {
+        "session": 36,
+        "answer": "2",
+        "element_id": "209",
+        "symptom_id": 20
+    }
+},
+{
+    "model": "service_development.callanswerlist",
+    "pk": 30,
+    "fields": {
+        "session": 38,
+        "answer": "1",
+        "element_id": "206",
+        "symptom_id": 13
+    }
+},
+{
+    "model": "service_development.callanswerlist",
+    "pk": 31,
+    "fields": {
+        "session": 38,
+        "answer": "1",
+        "element_id": "203",
+        "symptom_id": 14
+    }
+},
+{
+    "model": "service_development.callanswerlist",
+    "pk": 32,
+    "fields": {
+        "session": 38,
+        "answer": "2",
+        "element_id": "200",
+        "symptom_id": 15
+    }
+},
+{
+    "model": "service_development.callanswerlist",
+    "pk": 33,
+    "fields": {
+        "session": 38,
+        "answer": "2",
+        "element_id": "200",
+        "symptom_id": 15
+    }
+},
+{
+    "model": "service_development.callanswerlist",
+    "pk": 34,
+    "fields": {
+        "session": 38,
+        "answer": "1",
+        "element_id": "206",
+        "symptom_id": 13
+    }
+},
+{
+    "model": "service_development.callanswerlist",
+    "pk": 35,
+    "fields": {
+        "session": 38,
+        "answer": "1",
+        "element_id": "203",
+        "symptom_id": 14
+    }
+},
+{
+    "model": "service_development.callanswerlist",
+    "pk": 36,
+    "fields": {
+        "session": 38,
+        "answer": "2",
+        "element_id": "200",
+        "symptom_id": 15
+    }
+},
+{
+    "model": "service_development.callanswerlist",
+    "pk": 37,
+    "fields": {
+        "session": 38,
+        "answer": "2",
+        "element_id": "197",
+        "symptom_id": 16
+    }
+},
+{
+    "model": "service_development.callanswerlist",
+    "pk": 38,
+    "fields": {
+        "session": 39,
+        "answer": "2",
+        "element_id": "131",
+        "symptom_id": 5
+    }
+},
+{
+    "model": "service_development.callanswerlist",
+    "pk": 39,
+    "fields": {
+        "session": 39,
+        "answer": "2",
+        "element_id": "134",
+        "symptom_id": 6
+    }
+},
+{
+    "model": "service_development.callanswerlist",
+    "pk": 40,
+    "fields": {
+        "session": 39,
+        "answer": "2",
+        "element_id": "137",
+        "symptom_id": 7
+    }
+},
+{
+    "model": "service_development.callanswerlist",
+    "pk": 41,
+    "fields": {
+        "session": 39,
+        "answer": "2",
+        "element_id": "137",
+        "symptom_id": 7
+    }
+},
+{
+    "model": "service_development.callanswerlist",
+    "pk": 42,
+    "fields": {
+        "session": 39,
+        "answer": "2",
+        "element_id": "140",
+        "symptom_id": 8
+    }
+},
+{
+    "model": "service_development.choice",
+    "pk": 131,
+    "fields": {}
+},
+{
+    "model": "service_development.choice",
+    "pk": 134,
+    "fields": {}
+},
+{
+    "model": "service_development.choice",
+    "pk": 137,
+    "fields": {}
+},
+{
+    "model": "service_development.choice",
+    "pk": 140,
+    "fields": {}
+},
+{
+    "model": "service_development.choice",
+    "pk": 143,
+    "fields": {}
+},
+{
+    "model": "service_development.choice",
+    "pk": 146,
+    "fields": {}
+},
+{
+    "model": "service_development.choice",
+    "pk": 149,
+    "fields": {}
+},
+{
+    "model": "service_development.choice",
+    "pk": 152,
+    "fields": {}
+},
+{
+    "model": "service_development.choice",
+    "pk": 175,
+    "fields": {}
+},
+{
+    "model": "service_development.choice",
+    "pk": 197,
+    "fields": {}
+},
+{
+    "model": "service_development.choice",
+    "pk": 200,
+    "fields": {}
+},
+{
+    "model": "service_development.choice",
+    "pk": 203,
+    "fields": {}
+},
+{
+    "model": "service_development.choice",
+    "pk": 206,
+    "fields": {}
+},
+{
+    "model": "service_development.choice",
+    "pk": 209,
+    "fields": {}
+},
+{
+    "model": "service_development.choice",
+    "pk": 212,
+    "fields": {}
+},
+{
+    "model": "service_development.choice",
+    "pk": 215,
+    "fields": {}
+},
+{
+    "model": "service_development.choice",
+    "pk": 218,
+    "fields": {}
+},
+{
+    "model": "service_development.choice",
+    "pk": 229,
+    "fields": {}
+},
+{
+    "model": "service_development.choiceoption",
+    "pk": 132,
+    "fields": {
+        "parent": 131,
+        "_redirect": 134
+    }
+},
+{
+    "model": "service_development.choiceoption",
+    "pk": 133,
+    "fields": {
+        "parent": 131,
+        "_redirect": 134
+    }
+},
+{
+    "model": "service_development.choiceoption",
+    "pk": 135,
+    "fields": {
+        "parent": 134,
+        "_redirect": 137
+    }
+},
+{
+    "model": "service_development.choiceoption",
+    "pk": 136,
+    "fields": {
+        "parent": 134,
+        "_redirect": 137
+    }
+},
+{
+    "model": "service_development.choiceoption",
+    "pk": 138,
+    "fields": {
+        "parent": 137,
+        "_redirect": 140
+    }
+},
+{
+    "model": "service_development.choiceoption",
+    "pk": 139,
+    "fields": {
+        "parent": 137,
+        "_redirect": 140
+    }
+},
+{
+    "model": "service_development.choiceoption",
+    "pk": 141,
+    "fields": {
+        "parent": 140,
+        "_redirect": 155
+    }
+},
+{
+    "model": "service_development.choiceoption",
+    "pk": 142,
+    "fields": {
+        "parent": 140,
+        "_redirect": 155
+    }
+},
+{
+    "model": "service_development.choiceoption",
+    "pk": 144,
+    "fields": {
+        "parent": 143,
+        "_redirect": 146
+    }
+},
+{
+    "model": "service_development.choiceoption",
+    "pk": 145,
+    "fields": {
+        "parent": 143,
+        "_redirect": 146
+    }
+},
+{
+    "model": "service_development.choiceoption",
+    "pk": 147,
+    "fields": {
+        "parent": 146,
+        "_redirect": 149
+    }
+},
+{
+    "model": "service_development.choiceoption",
+    "pk": 148,
+    "fields": {
+        "parent": 146,
+        "_redirect": 149
+    }
+},
+{
+    "model": "service_development.choiceoption",
+    "pk": 150,
+    "fields": {
+        "parent": 149,
+        "_redirect": 152
+    }
+},
+{
+    "model": "service_development.choiceoption",
+    "pk": 151,
+    "fields": {
+        "parent": 149,
+        "_redirect": 152
+    }
+},
+{
+    "model": "service_development.choiceoption",
+    "pk": 153,
+    "fields": {
+        "parent": 152,
+        "_redirect": 155
+    }
+},
+{
+    "model": "service_development.choiceoption",
+    "pk": 154,
+    "fields": {
+        "parent": 152,
+        "_redirect": 155
+    }
+},
+{
+    "model": "service_development.choiceoption",
+    "pk": 176,
+    "fields": {
+        "parent": 175,
+        "_redirect": 179
+    }
+},
+{
+    "model": "service_development.choiceoption",
+    "pk": 177,
+    "fields": {
+        "parent": 175,
+        "_redirect": 178
+    }
+},
+{
+    "model": "service_development.choiceoption",
+    "pk": 198,
+    "fields": {
+        "parent": 197,
+        "_redirect": 155
+    }
+},
+{
+    "model": "service_development.choiceoption",
+    "pk": 199,
+    "fields": {
+        "parent": 197,
+        "_redirect": 155
+    }
+},
+{
+    "model": "service_development.choiceoption",
+    "pk": 201,
+    "fields": {
+        "parent": 200,
+        "_redirect": 197
+    }
+},
+{
+    "model": "service_development.choiceoption",
+    "pk": 202,
+    "fields": {
+        "parent": 200,
+        "_redirect": 197
+    }
+},
+{
+    "model": "service_development.choiceoption",
+    "pk": 204,
+    "fields": {
+        "parent": 203,
+        "_redirect": 200
+    }
+},
+{
+    "model": "service_development.choiceoption",
+    "pk": 205,
+    "fields": {
+        "parent": 203,
+        "_redirect": 200
+    }
+},
+{
+    "model": "service_development.choiceoption",
+    "pk": 207,
+    "fields": {
+        "parent": 206,
+        "_redirect": 203
+    }
+},
+{
+    "model": "service_development.choiceoption",
+    "pk": 208,
+    "fields": {
+        "parent": 206,
+        "_redirect": 203
+    }
+},
+{
+    "model": "service_development.choiceoption",
+    "pk": 210,
+    "fields": {
+        "parent": 209,
+        "_redirect": 155
+    }
+},
+{
+    "model": "service_development.choiceoption",
+    "pk": 211,
+    "fields": {
+        "parent": 209,
+        "_redirect": 155
+    }
+},
+{
+    "model": "service_development.choiceoption",
+    "pk": 213,
+    "fields": {
+        "parent": 212,
+        "_redirect": 209
+    }
+},
+{
+    "model": "service_development.choiceoption",
+    "pk": 214,
+    "fields": {
+        "parent": 212,
+        "_redirect": 209
+    }
+},
+{
+    "model": "service_development.choiceoption",
+    "pk": 216,
+    "fields": {
+        "parent": 215,
+        "_redirect": 212
+    }
+},
+{
+    "model": "service_development.choiceoption",
+    "pk": 217,
+    "fields": {
+        "parent": 215,
+        "_redirect": 212
+    }
+},
+{
+    "model": "service_development.choiceoption",
+    "pk": 219,
+    "fields": {
+        "parent": 218,
+        "_redirect": 215
+    }
+},
+{
+    "model": "service_development.choiceoption",
+    "pk": 220,
+    "fields": {
+        "parent": 218,
+        "_redirect": 215
+    }
+},
+{
+    "model": "service_development.choiceoption",
+    "pk": 230,
+    "fields": {
+        "parent": 229,
+        "_redirect": 130
+    }
+},
+{
+    "model": "service_development.choiceoption",
+    "pk": 231,
+    "fields": {
+        "parent": 229,
+        "_redirect": null
+    }
+},
+{
+    "model": "service_development.messagepresentation",
+    "pk": 6,
+    "fields": {
+        "final_element": true,
+        "diagnosis_element": false,
+        "_redirect": null
+    }
+},
+{
+    "model": "service_development.messagepresentation",
+    "pk": 130,
+    "fields": {
+        "final_element": false,
+        "diagnosis_element": false,
+        "_redirect": 127
+    }
+},
+{
+    "model": "service_development.messagepresentation",
+    "pk": 155,
+    "fields": {
+        "final_element": false,
+        "diagnosis_element": true,
+        "_redirect": 168
+    }
+},
+{
+    "model": "service_development.messagepresentation",
+    "pk": 156,
+    "fields": {
+        "final_element": false,
+        "diagnosis_element": false,
+        "_redirect": 157
+    }
+},
+{
+    "model": "service_development.messagepresentation",
+    "pk": 157,
+    "fields": {
+        "final_element": false,
+        "diagnosis_element": false,
+        "_redirect": 169
+    }
+},
+{
+    "model": "service_development.messagepresentation",
+    "pk": 158,
+    "fields": {
+        "final_element": false,
+        "diagnosis_element": false,
+        "_redirect": 6
+    }
+},
+{
+    "model": "service_development.messagepresentation",
+    "pk": 159,
+    "fields": {
+        "final_element": false,
+        "diagnosis_element": false,
+        "_redirect": 169
+    }
+},
+{
+    "model": "service_development.messagepresentation",
+    "pk": 160,
+    "fields": {
+        "final_element": false,
+        "diagnosis_element": false,
+        "_redirect": 161
+    }
+},
+{
+    "model": "service_development.messagepresentation",
+    "pk": 161,
+    "fields": {
+        "final_element": false,
+        "diagnosis_element": false,
+        "_redirect": 6
+    }
+},
+{
+    "model": "service_development.messagepresentation",
+    "pk": 162,
+    "fields": {
+        "final_element": false,
+        "diagnosis_element": false,
+        "_redirect": 163
+    }
+},
+{
+    "model": "service_development.messagepresentation",
+    "pk": 163,
+    "fields": {
+        "final_element": false,
+        "diagnosis_element": false,
+        "_redirect": 169
+    }
+},
+{
+    "model": "service_development.messagepresentation",
+    "pk": 164,
+    "fields": {
+        "final_element": false,
+        "diagnosis_element": false,
+        "_redirect": 165
+    }
+},
+{
+    "model": "service_development.messagepresentation",
+    "pk": 165,
+    "fields": {
+        "final_element": false,
+        "diagnosis_element": false,
+        "_redirect": 169
+    }
+},
+{
+    "model": "service_development.messagepresentation",
+    "pk": 166,
+    "fields": {
+        "final_element": false,
+        "diagnosis_element": false,
+        "_redirect": 167
+    }
+},
+{
+    "model": "service_development.messagepresentation",
+    "pk": 167,
+    "fields": {
+        "final_element": false,
+        "diagnosis_element": false,
+        "_redirect": 6
+    }
+},
+{
+    "model": "service_development.messagepresentation",
+    "pk": 168,
+    "fields": {
+        "final_element": false,
+        "diagnosis_element": false,
+        "_redirect": 124
+    }
+},
+{
+    "model": "service_development.messagepresentation",
+    "pk": 169,
+    "fields": {
+        "final_element": false,
+        "diagnosis_element": false,
+        "_redirect": 124
+    }
+},
+{
+    "model": "service_development.messagepresentation",
+    "pk": 178,
+    "fields": {
+        "final_element": false,
+        "diagnosis_element": false,
+        "_redirect": 6
+    }
+},
+{
+    "model": "service_development.messagepresentation",
+    "pk": 179,
+    "fields": {
+        "final_element": false,
+        "diagnosis_element": false,
+        "_redirect": 178
+    }
+},
+{
+    "model": "service_development.messagepresentation",
+    "pk": 185,
+    "fields": {
+        "final_element": false,
+        "diagnosis_element": false,
+        "_redirect": 169
+    }
+},
+{
+    "model": "service_development.messagepresentation",
+    "pk": 186,
+    "fields": {
+        "final_element": false,
+        "diagnosis_element": false,
+        "_redirect": 185
+    }
+},
+{
+    "model": "service_development.messagepresentation",
+    "pk": 187,
+    "fields": {
+        "final_element": false,
+        "diagnosis_element": false,
+        "_redirect": 6
+    }
+},
+{
+    "model": "service_development.messagepresentation",
+    "pk": 188,
+    "fields": {
+        "final_element": false,
+        "diagnosis_element": false,
+        "_redirect": 187
+    }
+},
+{
+    "model": "service_development.messagepresentation",
+    "pk": 189,
+    "fields": {
+        "final_element": false,
+        "diagnosis_element": false,
+        "_redirect": 6
+    }
+},
+{
+    "model": "service_development.messagepresentation",
+    "pk": 190,
+    "fields": {
+        "final_element": false,
+        "diagnosis_element": false,
+        "_redirect": 189
+    }
+},
+{
+    "model": "service_development.messagepresentation",
+    "pk": 191,
+    "fields": {
+        "final_element": false,
+        "diagnosis_element": false,
+        "_redirect": 169
+    }
+},
+{
+    "model": "service_development.messagepresentation",
+    "pk": 192,
+    "fields": {
+        "final_element": false,
+        "diagnosis_element": false,
+        "_redirect": 191
+    }
+},
+{
+    "model": "service_development.messagepresentation",
+    "pk": 193,
+    "fields": {
+        "final_element": false,
+        "diagnosis_element": false,
+        "_redirect": 6
+    }
+},
+{
+    "model": "service_development.messagepresentation",
+    "pk": 194,
+    "fields": {
+        "final_element": false,
+        "diagnosis_element": false,
+        "_redirect": 193
+    }
+},
+{
+    "model": "service_development.messagepresentation",
+    "pk": 195,
+    "fields": {
+        "final_element": false,
+        "diagnosis_element": false,
+        "_redirect": 169
+    }
+},
+{
+    "model": "service_development.messagepresentation",
+    "pk": 196,
+    "fields": {
+        "final_element": false,
+        "diagnosis_element": false,
+        "_redirect": 195
+    }
+},
+{
+    "model": "service_development.animal",
+    "pk": 4,
+    "fields": {
+        "name": "Cow",
+        "description": ""
+    }
+},
+{
+    "model": "service_development.animal",
+    "pk": 5,
+    "fields": {
+        "name": "Chicken",
+        "description": ""
+    }
+},
+{
+    "model": "service_development.animal",
+    "pk": 6,
+    "fields": {
+        "name": "Sheep",
+        "description": ""
+    }
+},
+{
+    "model": "service_development.animal",
+    "pk": 7,
+    "fields": {
+        "name": "Goat",
+        "description": ""
+    }
+},
+{
+    "model": "service_development.disease",
+    "pk": 4,
+    "fields": {
+        "name": "Anthrax",
+        "description": "",
+        "related_element": 156
+    }
+},
+{
+    "model": "service_development.disease",
+    "pk": 5,
+    "fields": {
+        "name": "Bloat",
+        "description": "",
+        "related_element": 158
+    }
+},
+{
+    "model": "service_development.disease",
+    "pk": 6,
+    "fields": {
+        "name": "CBPP",
+        "description": "",
+        "related_element": 160
+    }
+},
+{
+    "model": "service_development.disease",
+    "pk": 7,
+    "fields": {
+        "name": "Avian Influenza",
+        "description": "",
+        "related_element": 162
+    }
+},
+{
+    "model": "service_development.disease",
+    "pk": 8,
+    "fields": {
+        "name": "Fowl pox",
+        "description": "",
+        "related_element": 164
+    }
+},
+{
+    "model": "service_development.disease",
+    "pk": 9,
+    "fields": {
+        "name": "Newcastle disease",
+        "description": "",
+        "related_element": 166
+    }
+},
+{
+    "model": "service_development.disease",
+    "pk": 10,
+    "fields": {
+        "name": "Unindentified disease",
+        "description": "",
+        "related_element": 168
+    }
+},
+{
+    "model": "service_development.disease",
+    "pk": 11,
+    "fields": {
+        "name": "Gut worm",
+        "description": "",
+        "related_element": 186
+    }
+},
+{
+    "model": "service_development.disease",
+    "pk": 12,
+    "fields": {
+        "name": "Foot rot",
+        "description": "",
+        "related_element": 188
+    }
+},
+{
+    "model": "service_development.disease",
+    "pk": 13,
+    "fields": {
+        "name": "Parasites",
+        "description": "",
+        "related_element": 190
+    }
+},
+{
+    "model": "service_development.disease",
+    "pk": 14,
+    "fields": {
+        "name": "FMD",
+        "description": "",
+        "related_element": 192
+    }
+},
+{
+    "model": "service_development.disease",
+    "pk": 15,
+    "fields": {
+        "name": "Black leg",
+        "description": "",
+        "related_element": 194
+    }
+},
+{
+    "model": "service_development.disease",
+    "pk": 16,
+    "fields": {
+        "name": "Anthrax (goat)",
+        "description": "",
+        "related_element": 196
+    }
+},
+{
+    "model": "service_development.diseasefragment",
+    "pk": 5,
+    "fields": {
+        "parent": 5,
+        "disease": 7
+    }
+},
+{
+    "model": "service_development.diseasefragment",
+    "pk": 6,
+    "fields": {
+        "parent": 5,
+        "disease": 8
+    }
+},
+{
+    "model": "service_development.diseasefragment",
+    "pk": 7,
+    "fields": {
+        "parent": 5,
+        "disease": 9
+    }
+},
+{
+    "model": "service_development.diseasefragment",
+    "pk": 8,
+    "fields": {
+        "parent": 4,
+        "disease": 4
+    }
+},
+{
+    "model": "service_development.diseasefragment",
+    "pk": 9,
+    "fields": {
+        "parent": 4,
+        "disease": 5
+    }
+},
+{
+    "model": "service_development.diseasefragment",
+    "pk": 10,
+    "fields": {
+        "parent": 4,
+        "disease": 6
+    }
+},
+{
+    "model": "service_development.diseasefragment",
+    "pk": 11,
+    "fields": {
+        "parent": 7,
+        "disease": 14
+    }
+},
+{
+    "model": "service_development.diseasefragment",
+    "pk": 12,
+    "fields": {
+        "parent": 7,
+        "disease": 15
+    }
+},
+{
+    "model": "service_development.diseasefragment",
+    "pk": 13,
+    "fields": {
+        "parent": 7,
+        "disease": 16
+    }
+},
+{
+    "model": "service_development.diseasefragment",
+    "pk": 14,
+    "fields": {
+        "parent": 6,
+        "disease": 11
+    }
+},
+{
+    "model": "service_development.diseasefragment",
+    "pk": 15,
+    "fields": {
+        "parent": 6,
+        "disease": 12
+    }
+},
+{
+    "model": "service_development.diseasefragment",
+    "pk": 16,
+    "fields": {
+        "parent": 6,
+        "disease": 13
+    }
+},
+{
+    "model": "service_development.animalselection",
+    "pk": 127,
+    "fields": {}
+},
+{
+    "model": "service_development.animalselectionoption",
+    "pk": 128,
+    "fields": {
+        "parent": 127,
+        "options": 4,
+        "_redirect_url": 131
+    }
+},
+{
+    "model": "service_development.animalselectionoption",
+    "pk": 129,
+    "fields": {
+        "parent": 127,
+        "options": 5,
+        "_redirect_url": 143
+    }
+},
+{
+    "model": "service_development.animalselectionoption",
+    "pk": 221,
+    "fields": {
+        "parent": 127,
+        "options": 6,
+        "_redirect_url": 206
+    }
+},
+{
+    "model": "service_development.animalselectionoption",
+    "pk": 222,
+    "fields": {
+        "parent": 127,
+        "options": 7,
+        "_redirect_url": 218
+    }
+},
+{
+    "model": "service_development.symptom",
+    "pk": 5,
+    "fields": {
+        "name": "Sudden death signs (cattle)",
+        "description": ""
+    }
+},
+{
+    "model": "service_development.symptom",
+    "pk": 6,
+    "fields": {
+        "name": "Fever signs (cattle)",
+        "description": ""
+    }
+},
+{
+    "model": "service_development.symptom",
+    "pk": 7,
+    "fields": {
+        "name": "Sudden collapse signs (cattle)",
+        "description": ""
+    }
+},
+{
+    "model": "service_development.symptom",
+    "pk": 8,
+    "fields": {
+        "name": "Difficulty breathing signs (cattle)",
+        "description": ""
+    }
+},
+{
+    "model": "service_development.symptom",
+    "pk": 9,
+    "fields": {
+        "name": "Sudden death signs (chicken)",
+        "description": ""
+    }
+},
+{
+    "model": "service_development.symptom",
+    "pk": 10,
+    "fields": {
+        "name": "Difficulty breathing signs (chicken)",
+        "description": ""
+    }
+},
+{
+    "model": "service_development.symptom",
+    "pk": 11,
+    "fields": {
+        "name": "Less eggs signs (chicken)",
+        "description": ""
+    }
+},
+{
+    "model": "service_development.symptom",
+    "pk": 12,
+    "fields": {
+        "name": "Twisted neck signs (chicken)",
+        "description": ""
+    }
+},
+{
+    "model": "service_development.symptom",
+    "pk": 13,
+    "fields": {
+        "name": "Weight loss signs (sheep)",
+        "description": ""
+    }
+},
+{
+    "model": "service_development.symptom",
+    "pk": 14,
+    "fields": {
+        "name": "Diarrhea signs (sheep)",
+        "description": ""
+    }
+},
+{
+    "model": "service_development.symptom",
+    "pk": 15,
+    "fields": {
+        "name": "Lameness signs (sheep)",
+        "description": ""
+    }
+},
+{
+    "model": "service_development.symptom",
+    "pk": 16,
+    "fields": {
+        "name": "Lumps signs (sheep)",
+        "description": ""
+    }
+},
+{
+    "model": "service_development.symptom",
+    "pk": 17,
+    "fields": {
+        "name": "Reluctant move signs (goat)",
+        "description": ""
+    }
+},
+{
+    "model": "service_development.symptom",
+    "pk": 18,
+    "fields": {
+        "name": "Oral lesions signs (goat)",
+        "description": ""
+    }
+},
+{
+    "model": "service_development.symptom",
+    "pk": 19,
+    "fields": {
+        "name": "Swollen signs (goat)",
+        "description": ""
+    }
+},
+{
+    "model": "service_development.symptom",
+    "pk": 20,
+    "fields": {
+        "name": "Lethargic and trembling signs (goat)",
+        "description": ""
+    }
+},
+{
+    "model": "service_development.symptomofdisease",
+    "pk": 1,
+    "fields": {
+        "disease": 4,
+        "symptom": 5,
+        "element_of_symptom": 131
+    }
+},
+{
+    "model": "service_development.symptomofdisease",
+    "pk": 2,
+    "fields": {
+        "disease": 4,
+        "symptom": 6,
+        "element_of_symptom": 134
+    }
+},
+{
+    "model": "service_development.symptomofdisease",
+    "pk": 3,
+    "fields": {
+        "disease": 4,
+        "symptom": 8,
+        "element_of_symptom": 140
+    }
+},
+{
+    "model": "service_development.symptomofdisease",
+    "pk": 4,
+    "fields": {
+        "disease": 5,
+        "symptom": 7,
+        "element_of_symptom": 137
+    }
+},
+{
+    "model": "service_development.symptomofdisease",
+    "pk": 5,
+    "fields": {
+        "disease": 5,
+        "symptom": 8,
+        "element_of_symptom": 140
+    }
+},
+{
+    "model": "service_development.symptomofdisease",
+    "pk": 6,
+    "fields": {
+        "disease": 6,
+        "symptom": 6,
+        "element_of_symptom": 134
+    }
+},
+{
+    "model": "service_development.symptomofdisease",
+    "pk": 7,
+    "fields": {
+        "disease": 6,
+        "symptom": 8,
+        "element_of_symptom": 140
+    }
+},
+{
+    "model": "service_development.symptomofdisease",
+    "pk": 8,
+    "fields": {
+        "disease": 7,
+        "symptom": 9,
+        "element_of_symptom": 143
+    }
+},
+{
+    "model": "service_development.symptomofdisease",
+    "pk": 9,
+    "fields": {
+        "disease": 7,
+        "symptom": 11,
+        "element_of_symptom": 149
+    }
+},
+{
+    "model": "service_development.symptomofdisease",
+    "pk": 10,
+    "fields": {
+        "disease": 8,
+        "symptom": 10,
+        "element_of_symptom": 146
+    }
+},
+{
+    "model": "service_development.symptomofdisease",
+    "pk": 11,
+    "fields": {
+        "disease": 8,
+        "symptom": 12,
+        "element_of_symptom": 152
+    }
+},
+{
+    "model": "service_development.symptomofdisease",
+    "pk": 12,
+    "fields": {
+        "disease": 9,
+        "symptom": 9,
+        "element_of_symptom": 143
+    }
+},
+{
+    "model": "service_development.symptomofdisease",
+    "pk": 13,
+    "fields": {
+        "disease": 9,
+        "symptom": 12,
+        "element_of_symptom": 152
+    }
+},
+{
+    "model": "service_development.symptomofdisease",
+    "pk": 14,
+    "fields": {
+        "disease": 11,
+        "symptom": 13,
+        "element_of_symptom": 206
+    }
+},
+{
+    "model": "service_development.symptomofdisease",
+    "pk": 15,
+    "fields": {
+        "disease": 11,
+        "symptom": 14,
+        "element_of_symptom": 203
+    }
+},
+{
+    "model": "service_development.symptomofdisease",
+    "pk": 16,
+    "fields": {
+        "disease": 12,
+        "symptom": 13,
+        "element_of_symptom": 206
+    }
+},
+{
+    "model": "service_development.symptomofdisease",
+    "pk": 17,
+    "fields": {
+        "disease": 12,
+        "symptom": 15,
+        "element_of_symptom": 200
+    }
+},
+{
+    "model": "service_development.symptomofdisease",
+    "pk": 18,
+    "fields": {
+        "disease": 13,
+        "symptom": 13,
+        "element_of_symptom": 206
+    }
+},
+{
+    "model": "service_development.symptomofdisease",
+    "pk": 19,
+    "fields": {
+        "disease": 13,
+        "symptom": 16,
+        "element_of_symptom": 197
+    }
+},
+{
+    "model": "service_development.symptomofdisease",
+    "pk": 20,
+    "fields": {
+        "disease": 14,
+        "symptom": 18,
+        "element_of_symptom": 215
+    }
+},
+{
+    "model": "service_development.symptomofdisease",
+    "pk": 21,
+    "fields": {
+        "disease": 14,
+        "symptom": 20,
+        "element_of_symptom": 209
+    }
+},
+{
+    "model": "service_development.symptomofdisease",
+    "pk": 22,
+    "fields": {
+        "disease": 15,
+        "symptom": 17,
+        "element_of_symptom": 218
+    }
+},
+{
+    "model": "service_development.symptomofdisease",
+    "pk": 23,
+    "fields": {
+        "disease": 15,
+        "symptom": 20,
+        "element_of_symptom": 209
+    }
+},
+{
+    "model": "service_development.symptomofdisease",
+    "pk": 24,
+    "fields": {
+        "disease": 16,
+        "symptom": 17,
+        "element_of_symptom": 218
+    }
+},
+{
+    "model": "service_development.symptomofdisease",
+    "pk": 25,
+    "fields": {
+        "disease": 16,
+        "symptom": 19,
+        "element_of_symptom": 212
+    }
+},
+{
+    "model": "service_development.veterinarian",
+    "pk": 1,
+    "fields": {
+        "name": "Dr. Amoro Nelson Agemga",
+        "description": "",
+        "phone_number": "01234567",
+        "region": 4
+    }
+},
+{
+    "model": "service_development.veterinarian",
+    "pk": 2,
+    "fields": {
+        "name": "Dr. Baba Issah",
+        "description": "",
+        "phone_number": "023456897",
+        "region": 5
+    }
+},
+{
+    "model": "service_development.veterinarian",
+    "pk": 3,
+    "fields": {
+        "name": "Dr. Ebo Annan",
+        "description": "",
+        "phone_number": "034634753",
+        "region": 6
+    }
+},
+{
+    "model": "service_development.veterinarian",
+    "pk": 4,
+    "fields": {
+        "name": "Dr. Kwadwo Nikrumah",
+        "description": "",
+        "phone_number": "037464243",
+        "region": 7
+    }
+},
+{
+    "model": "service_development.veterinarian",
+    "pk": 5,
+    "fields": {
+        "name": "Dr Tangara",
+        "description": "",
+        "phone_number": "1235678",
+        "region": 8
+    }
+},
+{
+    "model": "service_development.veterinarian",
+    "pk": 6,
+    "fields": {
+        "name": "Dr Charles",
+        "description": "",
+        "phone_number": "75743874",
+        "region": 9
+    }
+},
+{
+    "model": "service_development.veterinarianselection",
+    "pk": 180,
+    "fields": {
+        "_redirect_url": 175
+    }
+},
+{
+    "model": "service_development.veterinarianselectionoption",
+    "pk": 181,
+    "fields": {
+        "parent": 180,
+        "options": 1
+    }
+},
+{
+    "model": "service_development.veterinarianselectionoption",
+    "pk": 182,
+    "fields": {
+        "parent": 180,
+        "options": 2
+    }
+},
+{
+    "model": "service_development.veterinarianselectionoption",
+    "pk": 183,
+    "fields": {
+        "parent": 180,
+        "options": 3
+    }
+},
+{
+    "model": "service_development.veterinarianselectionoption",
+    "pk": 184,
+    "fields": {
+        "parent": 180,
+        "options": 4
+    }
+},
+{
+    "model": "service_development.veterinarianselectionoption",
+    "pk": 227,
+    "fields": {
+        "parent": 180,
+        "options": 5
+    }
+},
+{
+    "model": "service_development.veterinarianselectionoption",
+    "pk": 228,
+    "fields": {
+        "parent": 180,
+        "options": 6
+    }
+}
+]
